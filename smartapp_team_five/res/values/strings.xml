@@ -2,9 +2,24 @@
 <resources>
 
     <string name="app_name">smartapp_team_five</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_view_appointments">View Appointments</string>
+    <string name="title_activity_service_options">Service Options</string>
 
+    <!-- Landing view -->
+    <string name="landing_page_mssg">Select the correct\nappointment calender</string>
+    <string name="clinics_landing_page">Clinics\n(Ante-natal)</string>
+    <string name="visits_landing_page">Visits\n(Post-natal)</string>
+    
+    
+    <!-- Service view -->
+    <string name="service_option_mssg">Select the Service\noption you would like to view</string>
+	<string name="clinics_domino_dublin">Domino (Dublin)</string>
+	<string name="clinics_domino_wicklow">Domino (Wicklow)</string>
+	<string name="clinics_eth_dublin">ETH Dublin</string>
+    <string name="clinics_eth_wicklow">ETH Wicklow</string>
+    <string name="clinics_satellite">Salellite</string>
+	
+	
 </resources>

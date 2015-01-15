@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
@@ -23,8 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ViewAppointments"
+            android:name=".ViewAppointmentsActivity"
             android:label="@string/title_activity_view_appointments" >
+        </activity>
+        <activity
+            android:name=".ServiceOptions"
+            android:label="@string/title_activity_service_options" >
         </activity>
     </application>
 

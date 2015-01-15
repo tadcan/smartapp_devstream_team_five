@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/service_options_text"
+        android:layout_gravity="center"
+        android:text="@string/service_option_mssg"
+        android:layout_margin="10dp" />
+    
+    <Button 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/clinics_domino_dublin"
+	    android:text="@string/clinics_domino_dublin" 
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_weight="1" />
+	
+	
+	<Button 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/clinics_domino_wicklow"
+	    android:text="@string/clinics_domino_wicklow"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_weight="1" />
+	
+	<Button 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/clinics_eth_dublin"
+	    android:text="@string/clinics_eth_dublin" 
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_weight=".5" />
+	
+	
+	<Button 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/visits_eth_wicklow"
+	    android:text="@string/clinics_eth_wicklow"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_weight=".5" />
+	
+	<Button 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/clinics_salellite"
+	    android:text="@string/clinics_satellite" 
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:layout_margin="10dp"
+	    android:layout_weight=".5" />
+
+
+</LinearLayout>
