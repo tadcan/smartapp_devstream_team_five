@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +29,10 @@
         <activity
             android:name=".ServiceOptions"
             android:label="@string/title_activity_service_options" >
+        </activity>
+        <activity
+            android:name=".ClinicsDublinDominoActivity"
+            android:label="@string/title_activity_clinics_dublin_domino" >
         </activity>
     </application>
 
