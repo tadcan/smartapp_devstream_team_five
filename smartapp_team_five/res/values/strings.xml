@@ -31,5 +31,6 @@
     <string name="title_activity_clinics__d__d">Clinics_D_D</string>
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_service_user">ServiceUserActivity</string>
 
 </resources>

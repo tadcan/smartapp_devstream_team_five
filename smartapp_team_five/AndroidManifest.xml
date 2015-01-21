@@ -34,6 +34,10 @@
             android:name=".ClinicsDublinDominoActivity"
             android:label="@string/title_activity_clinics_dublin_domino" >
         </activity>
+        <activity
+            android:name=".ServiceUserActivity"
+            android:label="@string/title_activity_service_user" >
+        </activity>
     </application>
 
 </manifest>
