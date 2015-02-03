@@ -36,5 +36,9 @@
    	<string name="btn_d_d_churchtown">ChurchTown\n\t-Weekly Thursday</string>
    	<string name="btn_salellite">NMH\n\t-Weekly, Friday</string>
    	<string name="btn_home_visits">Home Visits\n\t-Micscellaneous\n\t-Daily</string>
-   	
+  
+   <!-- Service User Activity -->
+   	<string name="title_activity_service_user">ServiceUserActivity</string>
+
+
 </resources>
