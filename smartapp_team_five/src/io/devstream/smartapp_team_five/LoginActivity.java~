@@ -12,4 +12,7 @@ public class LoginActivity extends Activity {
 		
 	}
 	
+	// Todo add login in button
+	
+	// Check credentials against HS accounts
 }

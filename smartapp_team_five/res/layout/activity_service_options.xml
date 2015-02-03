@@ -48,7 +48,7 @@
 	<Button 
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
-	    android:id="@+id/visits_eth_wicklow"
+	    android:id="@+id/clinics_eth_wicklow"
 	    android:text="@string/clinics_eth_wicklow"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
@@ -57,7 +57,7 @@
 	<Button 
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
-	    android:id="@+id/clinics_salellite"
+	    android:id="@+id/clinics_satellite"
 	    android:text="@string/clinics_satellite" 
 	    android:layout_gravity="center"
 	    android:gravity="center"

@@ -28,8 +28,13 @@
     <string name="clinics_satellite">Salellite</string>
 
     <!-- Clinics Dublin Domino -->
-    <string name="title_activity_clinics__d__d">Clinics_D_D</string>
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
-    <string name="hello_world">Hello world!</string>
-
+   	<string name="dublin_domino_mssg">Select the Domino (Dublin) clinic\ncalendar you\'s like to view</string>
+   	<string name="btn_d_d_nmh_opd">NMH (OPD location)\n\t-Evening Booking Clinic\n\t-Weekly, Monday</string>
+   	<string name="btn_d_d_leopardstown">Leopardstown\n\t-Weekly, Tuesday</string>
+   	<string name="btn_d_d_dun_laoghaire">Dun Laoghaire\n\t-St Michaels Hospital\n\t-Weekly Wednesday</string>
+   	<string name="btn_d_d_churchtown">ChurchTown\n\t-Weekly Thursday</string>
+   	<string name="btn_salellite">NMH\n\t-Weekly, Friday</string>
+   	<string name="btn_home_visits">Home Visits\n\t-Micscellaneous\n\t-Daily</string>
+   	
 </resources>
