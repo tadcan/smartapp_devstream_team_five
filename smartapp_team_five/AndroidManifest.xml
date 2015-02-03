@@ -38,6 +38,10 @@
             android:name=".ServiceUserActivity"
             android:label="@string/title_activity_service_user" >
         </activity>
+        <activity
+            android:name=".ClinicsWicklowDominoActivity"
+            android:label="@string/title_activity_clinics_wicklow_domino" >
+        </activity>
     </application>
 
 </manifest>

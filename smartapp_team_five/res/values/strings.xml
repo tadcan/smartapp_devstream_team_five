@@ -15,30 +15,40 @@
     <!-- Landing view -->
     <string name="title_activity_view_appointments">View Appointments</string>
     <string name="landing_page_mssg">Select the correct\nappointment calender</string>
-    <string name="clinics_landing_page">Clinics\n(Ante-natal)</string>
-    <string name="visits_landing_page">Visits\n(Post-natal)</string>
+    <string name="btn_clinics_landing_page">Clinics\n(Ante-natal)</string>
+    <string name="btn_visits_landing_page">Visits\n(Post-natal)</string>
 
     <!-- Service view -->
     <string name="title_activity_service_options">Service Options</string>
     <string name="service_option_mssg">Select the Service\noption you would like to view</string>
-    <string name="clinics_domino_dublin">Domino (Dublin)</string>
-    <string name="clinics_domino_wicklow">Domino (Wicklow)</string>
-    <string name="clinics_eth_dublin">ETH Dublin</string>
-    <string name="clinics_eth_wicklow">ETH Wicklow</string>
-    <string name="clinics_satellite">Salellite</string>
+    <string name="btn_clinics_domino_dublin">Domino (Dublin)</string>
+    <string name="btn_clinics_domino_wicklow">Domino (Wicklow)</string>
+    <string name="btn_clinics_eth_dublin">ETH Dublin</string>
+    <string name="btn_clinics_eth_wicklow">ETH Wicklow</string>
+    <string name="btn_clinics_satellite">Salellite</string>
 
     <!-- Clinics Dublin Domino -->
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
-   	<string name="dublin_domino_mssg">Select the Domino (Dublin) clinic\ncalendar you\'s like to view</string>
-   	<string name="btn_d_d_nmh_opd">NMH (OPD location)\n\t-Evening Booking Clinic\n\t-Weekly, Monday</string>
-   	<string name="btn_d_d_leopardstown">Leopardstown\n\t-Weekly, Tuesday</string>
-   	<string name="btn_d_d_dun_laoghaire">Dun Laoghaire\n\t-St Michaels Hospital\n\t-Weekly Wednesday</string>
-   	<string name="btn_d_d_churchtown">ChurchTown\n\t-Weekly Thursday</string>
-   	<string name="btn_salellite">NMH\n\t-Weekly, Friday</string>
-   	<string name="btn_home_visits">Home Visits\n\t-Micscellaneous\n\t-Daily</string>
-  
-   <!-- Service User Activity -->
-   	<string name="title_activity_service_user">ServiceUserActivity</string>
+    <string name="dublin_domino_mssg">Select the Domino (Dublin) clinic\ncalendar you\'s like to view:</string>
+    <string name="btn_d_d_nmh_opd">NMH (OPD location)\n\t-Evening Booking Clinic\n\t-Weekly, Monday</string>
+    <string name="btn_d_d_leopardstown">Leopardstown\n\t-Weekly, Tuesday</string>
+    <string name="btn_d_d_dun_laoghaire">Dun Laoghaire\n\t-St Michaels Hospital\n\t-Weekly Wednesday</string>
+    <string name="btn_d_d_churchtown">ChurchTown\n\t-Weekly Thursday</string>
+    <string name="btn_salellite">NMH\n\t-Weekly, Friday</string>
+    <string name="btn_home_visits">Home Visits\n\t-Micscellaneous\n\t-Daily</string>
+    
+    <!-- Clinics Wicklow Domino -->
+    <string name="title_activity_clinics_wicklow_domino">Wicklow Domino</string>
+    <string name="btn_d_w_graystone_mon">Graystones\n\t-Weekly, Monday</string>
+    <string name="btn_d_w_graystones_tue">Graystones\n\t-Weekly, Tuesday</string>
+    <string name="btn_d_w_kilmacanouge">Kilmacanogue</string>
+
+    <!-- Service User Activity -->
+    <string name="title_activity_service_user">ServiceUserActivity</string>
+	<string name="wicklow_domino_mssg">Select the Domino (Wicklow) clinic\ncalendar you\'s like to view:</string>    
+
+    
+
 
 
 </resources>
