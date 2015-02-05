@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="@string/wicklow_domino_mssg" />
+            android:text="@string/mssg_wicklow_domino" />
 
         <Button
             android:id="@+id/clinics_domino_greystones_mon"

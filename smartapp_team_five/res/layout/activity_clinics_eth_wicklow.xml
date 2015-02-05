@@ -19,23 +19,23 @@
             android:text="@string/mssg_dublin_domino" />
 
         <Button
-            android:id="@+id/clinics_d_d_nmh_opd"
+            android:id="@+id/clinics_eth_w_ballinteer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/btn_d_d_nmh_opd" />
+            android:text="@string/btn_eth_w_ballinteer_mon" />
 
         <Button
-            android:id="@+id/clinics_d_d_leopardstown"
+            android:id="@+id/clinics_eth_w_dunlaoghaire"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/btn_d_d_leopardstown" />
+            android:text="@string/btn_eth_w_dunlaoghaire_tue" />
     </LinearLayout>
 
 </ScrollView>

@@ -44,7 +44,19 @@
         </activity>
         <activity
             android:name=".ClinicsETHWicklowActivity"
-            android:label="@string/title_activity_clinics_ethwicklow" >
+            android:label="@string/title_activity_clinics_eth_wicklow" >
+        </activity>
+        <activity
+            android:name=".ClinicsETHDublinActivity"
+            android:label="@string/title_activity_clinics_ethdublin" >
+        </activity>
+        <activity
+            android:name=".ClinicsSatelliteActivity"
+            android:label="@string/title_activity_clinics_satellite" >
+        </activity>
+        <activity
+            android:name=".ClinicDatesActivity"
+            android:label="@string/title_activity_clinic_dates" >
         </activity>
     </application>
 
