@@ -33,12 +33,12 @@ public class ClinicsETHWicklowActivity extends Activity {
 				switch( v.getId() ) {
 									
 					case R.id.clinics_eth_w_ballinteer:
-						Intent toEthWicBallinteerView = new Intent(ClinicsETHWicklowActivity.this, ClinicsETHDublinActivity.class);
+						Intent toEthWicBallinteerView = new Intent(ClinicsETHWicklowActivity.this, ClinicDatesActivity.class);
 						ClinicsETHWicklowActivity.this.startActivity(toEthWicBallinteerView);
 					break;
 						
 					case R.id.clinics_eth_w_dunlaoghaire:
-						Intent toEthWicDunLaoghaireView = new Intent(ClinicsETHWicklowActivity.this, ClinicsSatelliteActivity.class);
+						Intent toEthWicDunLaoghaireView = new Intent(ClinicsETHWicklowActivity.this, ClinicDatesActivity.class);
 						ClinicsETHWicklowActivity.this.startActivity(toEthWicDunLaoghaireView);
 					break;
 				}
