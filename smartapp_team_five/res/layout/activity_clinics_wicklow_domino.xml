@@ -1,55 +1,60 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp" >
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
 
-    <TextView
-        android:id="@+id/btn_wicklow_domino_txt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="@string/wicklow_domino_mssg" />
-
-    <Button
-        android:id="@+id/clinics_domino_greystones_mon"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/btn_d_w_graystone_mon" />
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
 
-    <Button
-        android:id="@+id/clinics_domino_greystones_tue"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="@string/btn_d_w_graystones_tue" />
+        <TextView
+            android:id="@+id/btn_wicklow_domino_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/wicklow_domino_mssg" />
 
-    <Button
-        android:id="@+id/clinics_domino_kilmacanogue"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:layout_weight=".5"
-        android:gravity="center"
-        android:text="@string/btn_d_w_kilmacanouge" />
+        <Button
+            android:id="@+id/clinics_domino_greystones_mon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_d_w_graystone_mon" />
 
-    <Button
-        android:id="@+id/home_visits"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:layout_weight=".5"
-        android:gravity="center"
-        android:text="@string/btn_home_visits" />
+        <Button
+            android:id="@+id/clinics_domino_greystones_tue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_d_w_graystones_tue" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/clinics_domino_kilmacanogue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:text="@string/btn_d_w_kilmacanouge" />
+
+        <Button
+            android:id="@+id/home_visits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:text="@string/btn_home_visits" />
+    </LinearLayout>
+
+</ScrollView>
