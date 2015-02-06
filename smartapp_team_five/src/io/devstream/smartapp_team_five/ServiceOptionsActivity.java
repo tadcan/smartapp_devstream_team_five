@@ -46,12 +46,12 @@ public class ServiceOptionsActivity extends Activity {
 			switch( v.getId() ) {
 				case R.id.clinics_domino_dublin:
 					// launch intent to service option page
-					Intent toDominoDublinView = new Intent(ServiceOptionsActivity.this, ClinicsDublinDominoActivity.class);
+					Intent toDominoDublinView = new Intent(ServiceOptionsActivity.this, ClinicsDominoDublinActivity.class);
 					ServiceOptionsActivity.this.startActivity(toDominoDublinView);
 				break;
 				
 				case R.id.clinics_domino_wicklow:
-					Intent toDominioWicklowView = new Intent(ServiceOptionsActivity.this, ClinicsWicklowDominoActivity.class);
+					Intent toDominioWicklowView = new Intent(ServiceOptionsActivity.this, ClinicsDominoWicklowActivity.class);
 					ServiceOptionsActivity.this.startActivity(toDominioWicklowView);
 				break;
 				
@@ -67,7 +67,6 @@ public class ServiceOptionsActivity extends Activity {
 				break;
 					
 				
-				
 				case R.id.clinics_satellite:
 					Intent toSatelitteClinics = new Intent(ServiceOptionsActivity.this, ClinicsSatelliteActivity.class);
 					ServiceOptionsActivity.this.startActivity(toSatelitteClinics);
@@ -76,14 +75,6 @@ public class ServiceOptionsActivity extends Activity {
 			}
 		}
 		
-	}
-	
-	
-	
-	
-	public ServiceOptionsActivity() {
-		
-	
 	}
 
 }

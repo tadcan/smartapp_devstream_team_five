@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class ClinicsWicklowDominoActivity extends Activity {
+public class ClinicsDominoWicklowActivity extends Activity {
 	
 	private Button clinicDGreystonesMon;
 	private Button clinicDGreystonesTue;
@@ -18,7 +18,7 @@ public class ClinicsWicklowDominoActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_clinics_wicklow_domino);
+		setContentView(R.layout.activity_clinics_domino_wicklow);
 		
 		clinicDGreystonesMon = (Button)findViewById(R.id.clinics_domino_greystones_mon);
 		clinicDGreystonesMon.setOnClickListener(new ButtonClick() );
@@ -41,23 +41,23 @@ public class ClinicsWicklowDominoActivity extends Activity {
 			switch( v.getId() ) {
 								
 				case R.id.clinics_domino_greystones_mon:
-					Intent toDGreystonesMonView = new Intent(ClinicsWicklowDominoActivity.this, ClinicDatesActivity.class);
-					ClinicsWicklowDominoActivity.this.startActivity(toDGreystonesMonView);
+					Intent toDGreystonesMonView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toDGreystonesMonView);
 				break;
 					
 				case R.id.clinics_domino_greystones_tue:
-					Intent toDGreystonesTueView = new Intent(ClinicsWicklowDominoActivity.this, ClinicDatesActivity.class);
-					ClinicsWicklowDominoActivity.this.startActivity(toDGreystonesTueView);
+					Intent toDGreystonesTueView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toDGreystonesTueView);
 				break;
 				
 				case R.id.clinics_domino_kilmacanogue:
-					Intent toDKilmacanogueView = new Intent(ClinicsWicklowDominoActivity.this, ClinicDatesActivity.class);
-					ClinicsWicklowDominoActivity.this.startActivity(toDKilmacanogueView);
+					Intent toDKilmacanogueView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toDKilmacanogueView);
 				break;
 				
 				case R.id.home_visits:
-					Intent toHomeVisitsView = new Intent(ClinicsWicklowDominoActivity.this, ClinicDatesActivity.class);
-					ClinicsWicklowDominoActivity.this.startActivity(toHomeVisitsView);
+					Intent toHomeVisitsView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toHomeVisitsView);
 				break;
 				
 			}

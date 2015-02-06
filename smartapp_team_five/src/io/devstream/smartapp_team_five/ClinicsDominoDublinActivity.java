@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class ClinicsDublinDominoActivity extends Activity {
+public class ClinicsDominoDublinActivity extends Activity {
 
 	private Button clinicDdNmhOpd;
 	private Button clinicDdLeopardstown;
@@ -20,7 +20,7 @@ public class ClinicsDublinDominoActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_clinics_dublin_domino);
+		setContentView(R.layout.activity_clinics_domino_dublin);
 		
 		// set buttons for page
 			clinicDdNmhOpd = (Button)findViewById(R.id.clinics_d_d_nmh_opd);
@@ -52,34 +52,34 @@ public class ClinicsDublinDominoActivity extends Activity {
 				switch( v.getId() ) {
 					case R.id.clinics_d_d_nmh_opd:
 						// launch intent to service option page
-						Intent toDdNmhOpdView = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toDdNmhOpdView);
+						Intent toDdNmhOpdView = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toDdNmhOpdView);
 					break;
 					
 					case R.id.clinics_d_d_leopardstown:
-						Intent toDdLeopardstownView = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toDdLeopardstownView);
+						Intent toDdLeopardstownView = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toDdLeopardstownView);
 					break;
 					
 					case R.id.clinics_d_d_dun_laoghaire:
-						Intent toDdDunLaoghaireView = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toDdDunLaoghaireView);
+						Intent toDdDunLaoghaireView = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toDdDunLaoghaireView);
 					break;
 					
 					
 					case R.id.clinics_d_d_churchtown:
-						Intent toDdChurchTownView = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toDdChurchTownView);
+						Intent toDdChurchTownView = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toDdChurchTownView);
 					break;
 						
 					case R.id.clinics_satellite:
-						Intent toSatelitteClinics = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toSatelitteClinics);
+						Intent toSatelitteClinics = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toSatelitteClinics);
 					break;
 					
 					case R.id.home_visits:
-						Intent toHomeVisitsView = new Intent(ClinicsDublinDominoActivity.this, ClinicDatesActivity.class);
-						ClinicsDublinDominoActivity.this.startActivity(toHomeVisitsView);
+						Intent toHomeVisitsView = new Intent(ClinicsDominoDublinActivity.this, ClinicDatesActivity.class);
+						ClinicsDominoDublinActivity.this.startActivity(toHomeVisitsView);
 					break;
 					
 				}

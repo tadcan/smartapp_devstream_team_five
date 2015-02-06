@@ -27,11 +27,11 @@
             android:label="@string/title_activity_view_appointments" >
         </activity>
         <activity
-            android:name=".ServiceOptions"
+            android:name=".ServiceOptionsActivity"
             android:label="@string/title_activity_service_options" >
         </activity>
         <activity
-            android:name=".ClinicsDublinDominoActivity"
+            android:name=".ClinicsDominoDublinActivity"
             android:label="@string/title_activity_clinics_dublin_domino" >
         </activity>
         <activity
@@ -39,7 +39,7 @@
             android:label="@string/title_activity_service_user" >
         </activity>
         <activity
-            android:name=".ClinicsWicklowDominoActivity"
+            android:name=".ClinicsDominoWicklowActivity"
             android:label="@string/title_activity_clinics_wicklow_domino" >
         </activity>
         <activity
