@@ -1,4 +1,4 @@
-package com.devstream.httpget;
+package io.devstream.smartapp_team_five;
 
 import java.io.BufferedReader;
 import java.io.IOException;
