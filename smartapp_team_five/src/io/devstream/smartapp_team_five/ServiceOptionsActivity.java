@@ -55,17 +55,15 @@ public class ServiceOptionsActivity extends Activity {
 					ServiceOptionsActivity.this.startActivity(toDominioWicklowView);
 				break;
 				
-				case R.id.clinics_eth_wicklow:
-					Intent toETHWicklowView = new Intent(ServiceOptionsActivity.this, ClinicsETHWicklowActivity.class);
-					ServiceOptionsActivity.this.startActivity(toETHWicklowView);
-				break;
-				
-				
 				case R.id.clinics_eth_dublin:
 					Intent toETHDublinView = new Intent(ServiceOptionsActivity.this, ClinicsETHDublinActivity.class);
 					ServiceOptionsActivity.this.startActivity(toETHDublinView);
 				break;
-					
+				
+				case R.id.clinics_eth_wicklow:
+					Intent toETHWicklowView = new Intent(ServiceOptionsActivity.this, ClinicsETHWicklowActivity.class);
+					ServiceOptionsActivity.this.startActivity(toETHWicklowView);
+				break;
 				
 				case R.id.clinics_satellite:
 					Intent toSatelitteClinics = new Intent(ServiceOptionsActivity.this, ClinicsSatelliteActivity.class);
