@@ -39,13 +39,13 @@
 
     <!-- Clinics Wicklow Domino -->
     <string name="title_activity_clinics_wicklow_domino">Wicklow Domino</string>
-    <string name="mssg_wicklow_domino">Select the Domino (Dublin) clinic\ncalendar you\'s like to view:</string>
+    <string name="mssg_wicklow_domino">Select the Domino (Wicklow) clinic\ncalendar you\'s like to view:</string>
     <string name="btn_d_w_graystone_mon">Graystones\n\t-Weekly, Monday</string>
     <string name="btn_d_w_graystones_tue">Graystones\n\t-Weekly, Tuesday</string>
     <string name="btn_d_w_kilmacanouge">Kilmacanogue\n\t-Weekly, Thursday</string>
 
     <!-- Clinics ETH Dublin -->
-    <string name="title_activity_clinics_ethdublin">Clinics ETH Dublin</string>
+    <string name="title_activity_clinics_eth_dublin">Clinics ETH Dublin</string>
     <string name="mssg_eth_dublin">Select a clinic</string>
     <string name="btn_eth_d_ballinteer_mon">Ballinteer\n\t-Weekly, Monday</string>
     <string name="btn_eth_d_dunlaoghaire_tue">Dun Laoghaire\n\t-Weekly, Tuesday</string>
