@@ -10,17 +10,17 @@ import android.widget.Button;
 
 public class ClinicsDominoWicklowActivity extends Activity {
 	
-	private Button clinicDGreystonesMon;
+	/*private Button clinicDGreystonesMon;
 	private Button clinicDGreystonesTue;
 	private Button clinicDKilmacanogue;
-	private Button homeVisits;
+	private Button homeVisits;*/
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_domino_wicklow);
 		
-		clinicDGreystonesMon = (Button)findViewById(R.id.clinics_domino_greystones_mon);
+		/*clinicDGreystonesMon = (Button)findViewById(R.id.clinics_domino_greystones_mon);
 		clinicDGreystonesMon.setOnClickListener(new ButtonClick() );
 			
 		clinicDGreystonesTue = (Button)findViewById(R.id.clinics_d_d_churchtown);
@@ -61,7 +61,7 @@ public class ClinicsDominoWicklowActivity extends Activity {
 				break;
 				
 			}
-		}
+		}*/
 		
 	}
 }
