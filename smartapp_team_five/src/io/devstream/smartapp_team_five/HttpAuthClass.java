@@ -39,7 +39,7 @@ public class HttpAuthClass {
 			httpcon.setRequestMethod("POST");
 			httpcon.connect();
 			// form request
-			byte[] inputBytes = "{\"login\":{\"username\":\"team_andorra\",\"password\":\"smartappiscoming\"}}"
+			byte[] inputBytes = "{\"login\":{\"username\":\"team_eritrea\",\"password\":\"smartappiscoming\"}}"
 					.getBytes("UTF-8");
 			OutputStream os = httpcon.getOutputStream();
 			os.write(inputBytes);
