@@ -10,22 +10,22 @@ import android.widget.Button;
 
 public class ClinicsETHWicklowActivity extends Activity {
 
-	/*private Button clinicEthWicBallinteer;
-	private Button clinicEthWicDunLaoghaire;*/
+	private Button clinicEthWicBallinteer;
+	private Button clinicEthWicDunLaoghaire;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_eth_wicklow);
 		
-		/*clinicEthWicBallinteer = (Button)findViewById(R.id.clinics_eth_w_ballinteer);
+		clinicEthWicBallinteer = (Button)findViewById(R.id.clinics_eth_w_ballinteer);
 		clinicEthWicBallinteer.setOnClickListener(new ButtonClick() );
 			
-		clinicEthWicDunLaoghaire = (Button)findViewById(R.id.clinics_eth_d_dunlaoghaire);
-		clinicEthWicDunLaoghaire.setOnClickListener(new ButtonClick() );*/
+		clinicEthWicDunLaoghaire = (Button)findViewById(R.id.clinics_eth_w_dunlaoghaire);
+		clinicEthWicDunLaoghaire.setOnClickListener(new ButtonClick() );
 	}
 	
-	/*private class ButtonClick implements View.OnClickListener {
+	private class ButtonClick implements View.OnClickListener {
 			
 			public void onClick(View v) {
 				
@@ -44,5 +44,5 @@ public class ClinicsETHWicklowActivity extends Activity {
 				}
 			}
 			
-		}*/
+		}
 }

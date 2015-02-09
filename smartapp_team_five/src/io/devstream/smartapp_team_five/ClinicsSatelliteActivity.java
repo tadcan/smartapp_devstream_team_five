@@ -10,17 +10,17 @@ import android.widget.Button;
 
 public class ClinicsSatelliteActivity extends Activity {
 	
-	/*private Button clinicSatelliteGreystones;
+	private Button clinicSatelliteGreystones;
 	private Button clinicSatelliteArklow;
 	private Button clinicSatelliteNewtownmountkennedy;
-	private Button clinicSatelliteBray;*/
+	private Button clinicSatelliteBray;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_satellite);
 		
-		/*clinicSatelliteGreystones = (Button)findViewById(R.id.clinics_satellite_greystones);
+		clinicSatelliteGreystones = (Button)findViewById(R.id.clinics_satellite_greystones);
 		clinicSatelliteGreystones.setOnClickListener(new ButtonClick() );
 			
 		clinicSatelliteArklow = (Button)findViewById(R.id.clinics_satellite_arklow);
@@ -29,11 +29,11 @@ public class ClinicsSatelliteActivity extends Activity {
 		clinicSatelliteNewtownmountkennedy = (Button)findViewById(R.id.clinics_satellite_newtownmountkennedy);
 		clinicSatelliteNewtownmountkennedy.setOnClickListener(new ButtonClick() );
 			
-		clinicSatelliteBray = (Button)findViewById(R.id.clinics_eth_d_dunlaoghaire);
-		clinicSatelliteBray.setOnClickListener(new ButtonClick() );*/
+		clinicSatelliteBray = (Button)findViewById(R.id.clinics_satellite_bray);
+		clinicSatelliteBray.setOnClickListener(new ButtonClick() );
 	}
 	
-	/*private class ButtonClick implements View.OnClickListener {
+	private class ButtonClick implements View.OnClickListener {
 			
 			public void onClick(View v) {
 				
@@ -62,5 +62,5 @@ public class ClinicsSatelliteActivity extends Activity {
 				}
 			}
 			
-		}*/
+		}
 }
