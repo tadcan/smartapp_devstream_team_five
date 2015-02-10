@@ -39,6 +39,7 @@ public class ViewAppointmentsActivity extends Activity {
 				
 				case R.id.visits_landing_page:
 					// launch intent to visits post natal calendar
+					// Not defined in the wireframe
 				break;
 				
 				default:

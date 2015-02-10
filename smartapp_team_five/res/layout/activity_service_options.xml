@@ -11,14 +11,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/service_options_text"
         android:layout_gravity="center"
-        android:text="@string/service_option_mssg"
+        android:text="@string/mssg_service_option"
         android:layout_margin="10dp" />
     
     <Button 
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
 	    android:id="@+id/clinics_domino_dublin"
-	    android:text="@string/clinics_domino_dublin" 
+	    android:text="@string/btn_clinics_domino_dublin" 
 	    android:layout_gravity="center"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
@@ -29,7 +29,7 @@
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
 	    android:id="@+id/clinics_domino_wicklow"
-	    android:text="@string/clinics_domino_wicklow"
+	    android:text="@string/btn_clinics_domino_wicklow"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
 	    android:layout_weight="1" />
@@ -38,7 +38,7 @@
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
 	    android:id="@+id/clinics_eth_dublin"
-	    android:text="@string/clinics_eth_dublin" 
+	    android:text="@string/btn_clinics_eth_dublin" 
 	    android:layout_gravity="center"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
@@ -48,8 +48,8 @@
 	<Button 
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
-	    android:id="@+id/visits_eth_wicklow"
-	    android:text="@string/clinics_eth_wicklow"
+	    android:id="@+id/clinics_eth_wicklow"
+	    android:text="@string/btn_clinics_eth_wicklow"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
 	    android:layout_weight=".5" />
@@ -57,8 +57,8 @@
 	<Button 
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
-	    android:id="@+id/clinics_salellite"
-	    android:text="@string/clinics_satellite" 
+	    android:id="@+id/clinics_satellite"
+	    android:text="@string/btn_clinics_satellite" 
 	    android:layout_gravity="center"
 	    android:gravity="center"
 	    android:layout_margin="10dp"
