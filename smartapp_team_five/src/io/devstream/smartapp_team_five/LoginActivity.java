@@ -15,7 +15,7 @@ public class LoginActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 		
-		loginIn = (Button)findViewById(R.id.button1);
+		loginIn = (Button)findViewById(R.id.btnLogIn);
 		loginIn.setOnClickListener(new ButtonClick() );
 		
 		
@@ -28,7 +28,7 @@ public class LoginActivity extends Activity {
 				
 				switch( v.getId() ) {
 									
-					case R.id.button1:
+					case R.id.btnLogIn:
 						Intent toViewAppointmentsView = new Intent(LoginActivity.this, ViewAppointmentsActivity.class);
 						LoginActivity.this.startActivity(toViewAppointmentsView);
 					break;
