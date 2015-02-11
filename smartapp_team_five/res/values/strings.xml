@@ -30,7 +30,12 @@
     <!-- Clinics Dublin Domino -->
     <string name="title_activity_clinics__d__d">Clinics_D_D</string>
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_service_user">ServiceUserActivity</string>
+   
+    <!-- Service_User -->   
+    <string name="label_0">ServiceUserActivity</string>
+    <string name="label_1">previous</string>
+    <string name="label_2">Edit</string>
+     <string name="label_3">Ante_natal</string>
+    <string name="label_4">Post_natal</string>
 
 </resources>
