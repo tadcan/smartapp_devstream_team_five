@@ -12,7 +12,7 @@
     <string name="Login">Login:</string>
     <string name="attempts">Attempts Left:</string>
 
-    <!-- Landing view -->
+    <!-- Appoinments view -->
     <string name="title_activity_view_appointments">View Appointments</string>
     <string name="mssg_landing_page">Select the correct\nappointment calender</string>
     <string name="btn_clinics_landing_page">Clinics\n(Ante-natal)</string>
@@ -67,10 +67,8 @@
     <!-- Clinic Dates -->
     <string name="title_activity_clinic_dates">Clinic Dates</string>
     <string name="mssg_clinics_dates">Clinic Name Here</string>
-    
+
     <!-- Service User Activity -->
     <string name="title_activity_service_user">ServiceUserActivity</string>
-    
-    <string name="hello_world">Hello world!</string>
 
 </resources>

@@ -17,11 +17,13 @@
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
 	    android:id="@+id/clinics_landing_page"
-	    android:text="@string/btn_clinics_landing_page" 
+	    
 	    android:layout_gravity="center"
 	    android:gravity="center"
 	    android:layout_margin="20dp"
-	    android:layout_weight=".5" />
+	    android:layout_weight=".5" 
+	    
+	    />
 	
 	<Button 
 	    android:layout_width="match_parent" 
@@ -34,3 +36,4 @@
 
 </LinearLayout>
 
+<!-- android:text="@string/btn_clinics_landing_page" -->
