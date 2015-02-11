@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -65,5 +66,13 @@
       		        
     </LinearLayout>	        
 
+=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+>>>>>>> 2dfa6afcb571608883581098313c97f9b7c6c6c1
 
 </LinearLayout>
