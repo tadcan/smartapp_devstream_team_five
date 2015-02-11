@@ -30,7 +30,6 @@
             android:label="@string/title_activity_service_options" >
         </activity>
         <activity
-
             android:name=".CalenderActivity"
             android:label="@string/title_activity_calender" >
         </activity>
