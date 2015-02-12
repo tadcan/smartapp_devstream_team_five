@@ -54,7 +54,7 @@
     <string name="btn_eth_d_dunlaoghaire_tue">Dun Laoghaire\n\t-Weekly, Tuesday</string>
 
     <!-- Clinics ETH Wicklow -->
-    <string name="title_activity_clinics_eth_wicklow">Clinics ETH Wicklow</string>
+    <string name="title_activity_clinics_eth_wicklow">Clinics ETH W0icklow</string>
     <string name="mssg_eth_wicklow">Select a clinic</string>
     <string name="btn_eth_w_ballinteer_mon">Ballinteer\n\t-Weekly, Monday</string>
     <string name="btn_eth_w_dunlaoghaire_tue">Dun Laoghaire\n\t-Weekly, Tuesday</string>
@@ -79,8 +79,8 @@
     <string name="app_time">15:43</string>
     <string name="app_duration">15 mins</string>
     
-    
     <!-- Activity Calender Temp values -->
+    <string name="title_activity_calender">Calender Activity</string>
 	<string name="txt_date1">txt date</string>
 	<string name="prev">Prev</string>
 	<string name="next">Next</string>
@@ -88,8 +88,6 @@
 	<string name="name">name</string>
 	<string name="gest1">23+4</string>
 	<string name="info">info</string>
-	<string name="title_activity_calender">Calender Activity</string>
 	
-
 
 </resources>
