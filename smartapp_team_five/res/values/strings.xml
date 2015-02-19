@@ -12,13 +12,11 @@
     <string name="smart">SMART</string>
     <string name="attempts">Attempts Left:</string>
 
-    <!-- Calendar view -->
-    <string name="prev">Prev</string>
-    <string name="next">Next</string>
-    <string name="title_activity_calender">Appointment Calendar</string>
-    <string name="txtDate">dd/mm/yyyy</string>
-    <string name="infoDesc">information button</string>
-    <string name="clinicName">[Clinic Name]</string>
+
+
+    <!-- Appoinments view -->
+    <string name="title_activity_confirm_appointment">ConfirmAppointmentActivity</string>
+
 
     <!-- Landing view -->
     <string name="title_activity_view_appointments">View Appointments</string>
@@ -76,7 +74,27 @@
     <string name="title_activity_clinic_dates">Clinic Dates</string>
     <string name="mssg_clinics_dates">Clinic Name Here</string>
 
-    <!-- Service User Activity -->
+
+
+    <!-- Service User Activity Temp values-->
+
     <string name="title_activity_service_user">ServiceUserActivity</string>
+    <string name="service_user">servic user</string>
+    <string name="hospital_number">2666464</string>
+    <string name="app_clinic">clinic name</string>
+    <string name="app_time">15:43</string>
+    <string name="app_duration">15 mins</string>
+    
+ 
+
+    <!-- Service_User -->
+
+ 
+    <string name="label_0">ServiceUserActivity</string>
+    <string name="label_1">previous</string>
+    <string name="label_2">Edit</string>
+    <string name="label_3">Ante_natal</string>
+    <string name="label_4">Post_natal</string>
+
 
 </resources>
