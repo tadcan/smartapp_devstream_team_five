@@ -13,21 +13,34 @@ import java.net.URLEncoder;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.util.Log;
+
+
 public class HttpAuthClass {
 	private HttpURLConnection httpcon;
 	private String loginURL;
 	private String tableURL;
 	private String apiKey = "f95a26e5-38d3-4161-b9c1-acb2cfc151c6";
-	 
-	
+	private  JSONObject jsonobj;
+	//                       f95a26e5­38d3­4161­b9c1­acb2cfc151c6
+	//apikey>f95a26e5­38d3­4161­b9c1­acb2cfc151c6
+	//token>fee3d8dcde4b9feff85c
+
 	public HttpAuthClass(String loginURL, String tableURL) {
 		this.loginURL = loginURL;
 		this.tableURL = tableURL;
 		String token = getTheAuthKey(loginURL);
 		System.out.println(token);
-		accessTheDBTable(token);
+		this.jsonobj=getJSON(token);
+		
 	}
-	
+
+
+	public   JSONObject getJsonobj() {
+		return jsonobj;
+	}
+
+
 	// get the auth key
 	private String getTheAuthKey(String loginURL) {
 		try {
@@ -68,8 +81,12 @@ public class HttpAuthClass {
 	}
 	
 	// using the auth key and api key we can access the database
-	private void accessTheDBTable(String token) {
+	private  JSONObject getJSON(String token) {
+
 		URL obj;
+		String result = "";
+		JSONObject jArray = null;
+		Log.d("jp1!", "jp03");
 		try {
 			obj = new URL(tableURL);
 			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -79,13 +96,15 @@ public class HttpAuthClass {
 			//add request header
 			con.setRequestProperty("Api-Key", apiKey);
 			con.setRequestProperty("Auth-Token", token);
-	 
+			System.out.println("apikey>"+apiKey + "\ntoken>" +token);
+			
 			int responseCode = con.getResponseCode();
+			
 			System.out.println("\nSending 'GET' request to URL : " + tableURL);
 			System.out.println("Response Code : " + responseCode);
 	 
-			BufferedReader in = new BufferedReader(
-			        new InputStreamReader(con.getInputStream()));
+		
+			BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
 			String inputLine;
 			StringBuffer response = new StringBuffer();
 	 
@@ -94,10 +113,20 @@ public class HttpAuthClass {
 			}
 			in.close();
 			//print result
-			System.out.println(response.toString());
+			result = response.toString();
+			System.out.println(result);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}		
+		}
+		
+		try {
+			jArray = new JSONObject(result);
+		} catch (JSONException e) {
+			Log.e("log_tag", "Error parsing data " + e.toString());
+		}
+		Log.d("jp1!", "jp04");
+		return jArray;
 	}
 }

@@ -1,91 +1,152 @@
 package io.devstream.smartapp_team_five;
-import java.util.Date;
-public class Appointment {
-    private int id;
-    private int service_provider_id;
-    private int service_user_id;
-    private int clinic_id;
-    private String 	priority;          
-    private String	visit_type;  
-    private Date	date_entered;
-    private Date	date;
-    
-	public Appointment() {
-		// TODO Auto-generated constructor stub	
- 
-	}
 
-	public int getId() {
-		return id;
-	}
+//  http://pojo.sodhanalibrary.com/Convert
 
-	public void setId(int id) {
-		this.id = id;
-	}
+public class Appointment
+{
+    private String id;
 
-	public int getService_provider_id() {
-		return service_provider_id;
-	}
+    private String time;
 
-	public void setService_provider_id(int service_provider_id) {
-		this.service_provider_id = service_provider_id;
-	}
+    private String[] service_option_ids;
 
-	public int getService_user_id() {
-		return service_user_id;
-	}
+    private String clinic_id;
 
-	public void setService_user_id(int service_user_id) {
-		this.service_user_id = service_user_id;
-	}
+    private String service_provider_id;
 
-	public int getClinic_id() {
-		return clinic_id;
-	}
+    private String priority;
 
-	public void setClinic_id(int clinic_id) {
-		this.clinic_id = clinic_id;
-	}
+    private String service_user_id;
 
-	public String getPriority() {
-		return priority;
-	}
+    private Links links;
 
-	public void setPriority(String priority) {
-		this.priority = priority;
-	}
+    private String visit_type;
 
-	public String getVisit_type() {
-		return visit_type;
-	}
+    private String[] visit_logs;
 
-	public void setVisit_type(String visit_type) {
-		this.visit_type = visit_type;
-	}
+    private String date;
 
-	public Date getDate_entered() {
-		return date_entered;
-	}
+    private ServiceUser serviceUser;
 
-	public void setDate_entered(Date date_entered) {
-		this.date_entered = date_entered;
-	}
+    public String getId ()
+    {
+        return id;
+    }
 
-	public Date getDate() {
-		return date;
-	}
+    public void setId (String id)
+    {
+        this.id = id;
+    }
 
-	public void setDate(Date date) {
-		this.date = date;
-	}
+    public String getTime ()
+    {
+        return time;
+    }
 
-	@Override
-	public String toString() {
-		return "Appointment [id=" + id + ", service_provider_id="
-				+ service_provider_id + ", service_user_id=" + service_user_id
-				+ ", clinic_id=" + clinic_id + ", priority=" + priority
-				+ ", visit_type=" + visit_type + ", date_entered="
-				+ date_entered + ", date=" + date + "]";
-	}
+    public void setTime (String time)
+    {
+        this.time = time;
+    }
 
+    public String[] getService_option_ids ()
+    {
+        return service_option_ids;
+    }
+
+    public void setService_option_ids (String[] service_option_ids)
+    {
+        this.service_option_ids = service_option_ids;
+    }
+
+    public String getClinic_id ()
+    {
+        return clinic_id;
+    }
+
+    public void setClinic_id (String clinic_id)
+    {
+        this.clinic_id = clinic_id;
+    }
+
+    public String getService_provider_id ()
+    {
+        return service_provider_id;
+    }
+
+    public void setService_provider_id (String service_provider_id)
+    {
+        this.service_provider_id = service_provider_id;
+    }
+
+    public String getPriority ()
+    {
+        return priority;
+    }
+
+    public void setPriority (String priority)
+    {
+        this.priority = priority;
+    }
+
+    public String getService_user_id ()
+    {
+        return service_user_id;
+    }
+
+    public void setService_user_id (String service_user_id)
+    {
+        this.service_user_id = service_user_id;
+    }
+
+    public Links getLinks ()
+    {
+        return links;
+    }
+
+    public void setLinks (Links links)
+    {
+        this.links = links;
+    }
+
+    public String getVisit_type ()
+    {
+        return visit_type;
+    }
+
+    public void setVisit_type (String visit_type)
+    {
+        this.visit_type = visit_type;
+    }
+
+    public String[] getVisit_logs ()
+    {
+        return visit_logs;
+    }
+
+    public void setVisit_logs (String[] visit_logs)
+    {
+        this.visit_logs = visit_logs;
+    }
+
+    public String getDate ()
+    {
+        return date;
+    }
+
+    public void setDate (String date)
+    {
+        this.date = date;
+    }
+
+    public ServiceUser getServiceUser ()
+    {
+        return serviceUser;
+    }
+
+
+
+	public void setServiceUser (ServiceUser serviceUser)
+    {
+        this.serviceUser = serviceUser;
+    }
 }

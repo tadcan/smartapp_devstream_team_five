@@ -12,39 +12,16 @@
     <string name="smart">SMART</string>
     <string name="attempts">Attempts Left:</string>
 
-     <style name="DefaultButtonText">
-       <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#979797</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_margin">3dp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:shadowColor">#f9f9f9</item>
-        <item name="android:shadowDx">1</item>
-        <item name="android:shadowDy">1</item>
-        <item name="android:shadowRadius">1</item>
-    </style>
-    
+    <!-- Calendar view -->
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="title_activity_calender">Appointment Calendar</string>
+    <string name="txtDate">dd/mm/yyyy</string>
+    <string name="infoDesc">information button</string>
+    <string name="clinicName">[Clinic Name]</string>
+
     <!-- Landing view -->
     <string name="title_activity_view_appointments">View Appointments</string>
-<<<<<<< HEAD
-    <string name="landing_page_mssg">Select the correct\nappointment calender</string>
-    <string name="clinics_landing_page">Clinics\n(Ante-natal)</string>
-    <string name="visits_landing_page">Visits\n(Post-natal)</string>
-
-    <!-- Service view -->
-    <string name="title_activity_service_options">Service Options</string>
-    <string name="service_option_mssg">Select the Service\noption you would like to view</string>
-    <string name="clinics_domino_dublin">Domino (Dublin)</string>
-    <string name="clinics_domino_wicklow">Domino (Wicklow)</string>
-    <string name="clinics_eth_dublin">ETH Dublin</string>
-    <string name="clinics_eth_wicklow">ETH Wicklow</string>
-    <string name="clinics_satellite">Salellite</string>
-    <string name="title_activity_calender">CalenderActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_confirm_appointment">ConfirmAppointmentActivity</string>
-=======
     <string name="mssg_landing_page">Select the correct\nappointment calender</string>
     <string name="btn_clinics_landing_page">Clinics\n(Ante-natal)</string>
     <string name="btn_visits_landing_page">Visits\n(Post-natal)</string>
@@ -98,11 +75,8 @@
     <!-- Clinic Dates -->
     <string name="title_activity_clinic_dates">Clinic Dates</string>
     <string name="mssg_clinics_dates">Clinic Name Here</string>
-    
+
     <!-- Service User Activity -->
     <string name="title_activity_service_user">ServiceUserActivity</string>
-    
-    <string name="hello_world">Hello world!</string>
->>>>>>> 7f82e8548e905c42dc297d2302288cc3a6483128
 
 </resources>
