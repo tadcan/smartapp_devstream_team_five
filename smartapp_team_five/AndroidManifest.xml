@@ -31,10 +31,7 @@
             android:name=".ServiceOptionsActivity"
             android:label="@string/title_activity_service_options" >
         </activity>
-        <activity
-            android:name=".CalenderActivity"
-            android:label="@string/title_activity_calender" >
-        </activity>
+        
         <activity
             android:name=".ClinicsDominoDublinActivity"
             android:label="@string/title_activity_clinics_dublin_domino" >
