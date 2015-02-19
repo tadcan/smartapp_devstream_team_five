@@ -1,71 +1,87 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    
-     <LinearLayout  
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="3" >
-        
-         <Button 
-			android:id="@+id/label_1"
-      		android:layout_width="wrap_content"
-      	    android:layout_height="wrap_content"
-       	    android:gravity="center" 
-       	    android:layout_weight="1"     	    
-            android:text="@string/label_1"/>
 
- 		<TextView
-    		android:layout_width="wrap_content"
-     		 android:layout_height="wrap_content"
-   		     android:text="@string/label_0"
-   		     android:textSize="@dimen/padding_small"
-		     android:gravity="center" 
-		     android:layout_weight="1" />
- 		  
- 		
-		<Button 
-			android:id="@+id/label_2"
-      		android:layout_width="wrap_content"
-      	    android:layout_height="wrap_content"
-       	    android:gravity="center" 
-      	    android:layout_weight="1"     	    
-            android:text="@string/label_2"/>
-      		        
+        <Button
+            android:id="@+id/label_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99"
+            android:gravity="center"
+            android:text="@string/label_0"
+            android:textSize="@dimen/padding_small" />
+
+        <Button
+            android:id="@+id/label_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.01"
+            android:gravity="center"
+            android:text="@string/label_2" />
     </LinearLayout>
-    
-      	 <LinearLayout  
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="3" >
-        
-         <Button 
-			android:id="@+id/label_3"
-      		android:layout_width="wrap_content"
-      	    android:layout_height="wrap_content"
-       	    android:gravity="center" 
-       	    android:layout_weight="1"     	    
-            android:text="@string/label_3"/>
 
- 		     
-                
- 		  
- 		
-		<Button 
-			android:id="@+id/label_4"
-      		android:layout_width="wrap_content"
-      	    android:layout_height="wrap_content"
-       	    android:gravity="center" 
-      	    android:layout_weight="1"     	    
-            android:text="@string/label_4"/>
-      		        
-    </LinearLayout>	        
+        <Button
+            android:id="@+id/label_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_font"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_3" />
 
+        <Button
+            android:id="@+id/label_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_font"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_4" />
+    </LinearLayout>
 
+    <Button
+        android:id="@+id/label_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_font"
+        android:gravity="center"
+        android:text="@string/label_5" />
+
+    <Button
+        android:id="@+id/label_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_font"
+        android:gravity="center"
+        android:text="@string/label_6" />
+
+    <Button
+        android:id="@+id/label_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_font"
+        android:gravity="center"
+        android:text="@string/label_7" />
 
 </LinearLayout>
