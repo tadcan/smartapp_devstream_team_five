@@ -94,9 +94,12 @@
 
     <!-- Service_User -->
     <string name="label_0">ServiceUserActivity</string>
-    <string name="label_1">previous</string>
+    <string name="label_1">Previous</string>
     <string name="label_2">Edit</string>
     <string name="label_3">Ante_natal</string>
     <string name="label_4">Post_natal</string>
+    <string name="label_5">Contact</string>
+    <string name="label_6">Next_of_kin</string>
+    <string name="label_7">Book_Appointment</string>
 
 </resources>
