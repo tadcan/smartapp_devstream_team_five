@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/btn_satelitte_arklow" />
-        
+
         <Button
             android:id="@+id/clinics_satellite_newtownmountkennedy"
             android:layout_width="match_parent"

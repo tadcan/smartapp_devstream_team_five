@@ -54,7 +54,7 @@
     <string name="btn_eth_d_dunlaoghaire_tue">Dun Laoghaire\n\t-Weekly, Tuesday</string>
 
     <!-- Clinics ETH Wicklow -->
-    <string name="title_activity_clinics_eth_wicklow">Clinics ETH W0icklow</string>
+    <string name="title_activity_clinics_eth_wicklow">Clinics ETH Wicklow</string>
     <string name="mssg_eth_wicklow">Select a clinic</string>
     <string name="btn_eth_w_ballinteer_mon">Ballinteer\n\t-Weekly, Monday</string>
     <string name="btn_eth_w_dunlaoghaire_tue">Dun Laoghaire\n\t-Weekly, Tuesday</string>
@@ -71,16 +71,6 @@
     <string name="title_activity_clinic_dates">Clinic Dates</string>
     <string name="mssg_clinics_dates">Clinic Name Here</string>
 
-    <!-- Activity Calender Temp values -->
-    <string name="title_activity_calender">Calender Activity</string>
-	<string name="txt_date1">txt date</string>
-	<string name="prev">Prev</string>
-	<string name="next">Next</string>
-	<string name="time1">8:00</string>
-	<string name="name">name</string>
-	<string name="gest1">23+4</string>
-	<string name="info">info</string>
-
     <!-- Service_User -->
     <string name="label_0">ServiceUserActivity</string>
     <string name="label_1">previous</string>
@@ -89,3 +79,23 @@
     <string name="label_4">Post_natal</string>
 
 </resources>
+
+
+<!--     Activity Calender Temp values
+    <string name="title_activity_calender">Calender Activity</string>
+	<string name="txt_date1">txt date</string>
+	<string name="prev">Prev</string>
+	<string name="next">Next</string>
+	<string name="time1">8:00</string>
+	<string name="name">name</string>
+	<string name="gest1">23+4</string>
+	<string name="info">info</string>
+	
+    Service User Activity Temp values
+    <string name="title_activity_service_user">ServiceUserActivity</string>
+    <string name="service_user">servic user</string>
+    <string name="hospital_number">2666464</string>
+    <string name="app_clinic">clinic name</string>
+    <string name="app_time">15:43</string>
+    <string name="app_duration">15 mins</string>
+    -->
