@@ -34,10 +34,6 @@
             android:label="@string/title_activity_calender" >
         </activity>
         <activity
-            android:name=".ConfirmAppointmentActivity"
-            android:label="@string/title_activity_confirm_appointment" >
-        </activity>
-        <activity
             android:name=".ClinicsDominoDublinActivity"
             android:label="@string/title_activity_clinics_dublin_domino" >
         </activity>
@@ -64,7 +60,6 @@
         <activity
             android:name=".ClinicDatesActivity"
             android:label="@string/title_activity_clinic_dates" >
-
         </activity>
     </application>
 

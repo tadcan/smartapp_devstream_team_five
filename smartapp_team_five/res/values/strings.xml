@@ -12,15 +12,15 @@
     <string name="smart">SMART</string>
     <string name="attempts">Attempts Left:</string>
 
-	<!-- Appoinments view -->
-	<string name="title_activity_confirm_appointment">ConfirmAppointmentActivity</string>
+    <!-- Appoinments view -->
+    <string name="title_activity_confirm_appointment">ConfirmAppointmentActivity</string>
 
     <!-- Landing view -->
-	<string name="title_activity_view_appointments">View Appointments</string>
+    <string name="title_activity_view_appointments">View Appointments</string>
     <string name="mssg_landing_page">Select the correct\nappointment calender</string>
     <string name="btn_clinics_landing_page">Clinics\n(Ante-natal)</string>
     <string name="btn_visits_landing_page">Visits\n(Post-natal)</string>
-    
+
     <!-- Service view -->
     <string name="title_activity_service_options">Service Options</string>
     <string name="mssg_service_option">Select the Service\noption you would like to view</string>
@@ -71,14 +71,6 @@
     <string name="title_activity_clinic_dates">Clinic Dates</string>
     <string name="mssg_clinics_dates">Clinic Name Here</string>
 
-    <!-- Service User Activity Temp values-->
-    <string name="title_activity_service_user">ServiceUserActivity</string>
-    <string name="service_user">servic user</string>
-    <string name="hospital_number">2666464</string>
-    <string name="app_clinic">clinic name</string>
-    <string name="app_time">15:43</string>
-    <string name="app_duration">15 mins</string>
-    
     <!-- Activity Calender Temp values -->
     <string name="title_activity_calender">Calender Activity</string>
 	<string name="txt_date1">txt date</string>
@@ -88,6 +80,12 @@
 	<string name="name">name</string>
 	<string name="gest1">23+4</string>
 	<string name="info">info</string>
-	
+
+    <!-- Service_User -->
+    <string name="label_0">ServiceUserActivity</string>
+    <string name="label_1">previous</string>
+    <string name="label_2">Edit</string>
+    <string name="label_3">Ante_natal</string>
+    <string name="label_4">Post_natal</string>
 
 </resources>
