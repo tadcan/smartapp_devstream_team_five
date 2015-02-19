@@ -14,8 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:orientation="vertical"
         android:gravity="center"
+        android:orientation="vertical"
         android:padding="10dp" >
 
         <TextView
@@ -23,8 +23,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-			android:gravity="center"
             android:drawableTop="@drawable/logo"
+            android:gravity="center"
             android:text="@string/smart" />
 
         <EditText
@@ -32,8 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edittext_top_bg"
-            android:drawableStart="@drawable/ic_username"
             android:drawableLeft="@drawable/ic_username"
+            android:drawableStart="@drawable/ic_username"
             android:hint="@string/username"
             android:padding="10dp"
             android:textColorHint="#cccccc" />
@@ -44,8 +44,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="-2dp"
             android:background="@drawable/edittext_bottom_bg"
-            android:drawableStart="@drawable/ic_password"
             android:drawableLeft="@drawable/ic_password"
+            android:drawableStart="@drawable/ic_password"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="10dp"
@@ -63,3 +63,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+

@@ -9,7 +9,7 @@
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" >
-        
+
         <TextView
             android:id="@+id/clinics_dates_text"
             android:layout_width="wrap_content"
@@ -17,7 +17,6 @@
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_clinics_dates" />
-
-</LinearLayout>
+    </LinearLayout>
 
 </ScrollView>

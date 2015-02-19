@@ -30,7 +30,8 @@ public class LoginActivity extends Activity {
 									
 					case R.id.btnLogIn:
 						Intent toViewAppointmentsView = new Intent(LoginActivity.this, ViewAppointmentsActivity.class);
-						LoginActivity.this.startActivity(toViewAppointmentsView);
+						//LoginActivity.this.startActivity(toViewAppointmentsView);
+						startActivity(toViewAppointmentsView);
 					break;
 				}
 			}

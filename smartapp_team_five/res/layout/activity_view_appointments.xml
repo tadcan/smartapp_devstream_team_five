@@ -1,39 +1,42 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:orientation="vertical" >
+    android:paddingRight="10dp" >
 
-	<TextView
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:id="@+id/landing_page_text"
-	    android:text="@string/mssg_landing_page"
-	    android:layout_gravity="center"
-	    android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/landing_page_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/mssg_landing_page" />
+
 	   
-	<Button 
-	    android:layout_width="match_parent" 
-	    android:layout_height="wrap_content" 
-	    android:id="@+id/clinics_landing_page"
-	    
-	    android:layout_gravity="center"
-	    android:gravity="center"
-	    android:layout_margin="20dp"
-	    android:layout_weight=".5" 
-	    
-	    />
-	
-	<Button 
-	    android:layout_width="match_parent" 
-	    android:layout_height="wrap_content" 
-	    android:id="@+id/visits_landing_page"
-	    android:text="@string/btn_visits_landing_page"
-	    android:gravity="center"
-	    android:layout_margin="20dp"
-	    android:layout_weight=".5" />
+
+    <Button
+        android:id="@+id/clinics_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/btn_clinics_landing_page" />
+
+
+    <Button
+        android:id="@+id/visits_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:text="@string/btn_visits_landing_page" />
 
 </LinearLayout>
 
 <!-- android:text="@string/btn_clinics_landing_page" -->
+
