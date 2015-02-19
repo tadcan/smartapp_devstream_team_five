@@ -1,5 +1,9 @@
 package io.devstream.smartapp_team_five;
 
+import android.app.Activity;
+import android.location.Address;
+import android.os.Bundle;
+
 public class ServiceUserActivity extends Activity {
 	
 
@@ -16,3 +20,4 @@ public class ServiceUserActivity extends Activity {
 	
 	
 }
+
