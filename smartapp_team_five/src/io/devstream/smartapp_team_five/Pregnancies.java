@@ -8,7 +8,7 @@ public class Pregnancies
 
     private String anti_d;
 
-    private null gestation;
+    private  String gestation;
 
     private String additional_info;
 
@@ -20,7 +20,7 @@ public class Pregnancies
 
     private String service_user_id;
 
-    private null estimated_delivery_date;
+    private  String estimated_delivery_date;
 
     private String last_menstrual_period;
 
@@ -56,12 +56,12 @@ public class Pregnancies
         this.anti_d = anti_d;
     }
 
-    public null getGestation ()
+    public  String getGestation ()
     {
         return gestation;
     }
 
-    public void setGestation (null gestation)
+    public void setGestation ( String gestation)
     {
         this.gestation = gestation;
     }
@@ -116,12 +116,12 @@ public class Pregnancies
         this.service_user_id = service_user_id;
     }
 
-    public null getEstimated_delivery_date ()
+    public  String getEstimated_delivery_date ()
     {
         return estimated_delivery_date;
     }
 
-    public void setEstimated_delivery_date (null estimated_delivery_date)
+    public void setEstimated_delivery_date ( String estimated_delivery_date)
     {
         this.estimated_delivery_date = estimated_delivery_date;
     }
