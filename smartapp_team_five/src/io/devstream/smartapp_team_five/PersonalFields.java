@@ -1,6 +1,6 @@
 package io.devstream.smartapp_team_five;
 
-public class Personal_fields
+public class PersonalFields
 {
     private String home_address;
 
