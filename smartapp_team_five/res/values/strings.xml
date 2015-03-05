@@ -28,7 +28,7 @@
     <string name="btn_clinics_domino_wicklow">Domino (Wicklow)</string>
     <string name="btn_clinics_eth_dublin">ETH Dublin</string>
     <string name="btn_clinics_eth_wicklow">ETH Wicklow</string>
-    <string name="btn_clinics_satellite">Salellite</string>
+    <string name="btn_clinics_satellite">Satellite</string>
 
     <!-- Clinics Dublin Domino -->
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
@@ -36,8 +36,8 @@
 
     <string name="btn_d_d_nmh_opd">
         &lt;b>NMH(OPD Location) &lt;/b>&lt;br>
-        &lt;small>-Evening Booking Clinic &lt;/small>&lt;br>
-        &lt;small>-Weekly, Monday &lt;/small>
+        &lt;small>\t-Evening Booking Clinic &lt;/small>&lt;br>
+        &lt;small>\t-Weekly, Monday &lt;/small>
     </string>
 
     <string name="btn_d_d_leopardstown">Leopardstown\n\t-Weekly, Tuesday</string>

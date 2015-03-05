@@ -8,13 +8,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp" >
+        android:paddingRight="10dp"
+        android:gravity="center_horizontal|start" >
 
         <TextView
             android:id="@+id/tv_clinic_dates_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_dublin_domino" />
 
@@ -22,7 +22,6 @@
             android:id="@+id/clinics_d_d_nmh_opd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:gravity="center"
@@ -34,7 +33,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:gravity="center"
             android:text="@string/btn_d_d_leopardstown" />
 
         <Button
@@ -43,8 +41,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_d_d_dun_laoghaire" />
 
         <Button
@@ -52,8 +48,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_d_d_churchtown" />
 
         <Button
@@ -62,8 +56,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_salellite" />
 
         <Button
@@ -72,8 +64,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_home_visits" />
     </LinearLayout>
 

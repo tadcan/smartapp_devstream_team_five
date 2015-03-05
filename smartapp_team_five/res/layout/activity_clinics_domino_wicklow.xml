@@ -8,13 +8,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp" >
+        android:paddingRight="10dp"
+        android:gravity="center_horizontal|start"  >
 
         <TextView
             android:id="@+id/tv_domino_dublin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_wicklow_domino" />
 
@@ -24,8 +24,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
             android:text="@string/btn_d_w_graystone_mon" />
 
         <Button
@@ -33,8 +31,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
             android:text="@string/btn_d_w_graystones_tue" />
 
         <Button
@@ -43,8 +39,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_d_w_kilmacanouge" />
 
         <Button
@@ -53,8 +47,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:layout_weight=".5"
-            android:gravity="center"
             android:text="@string/btn_home_visits" />
     </LinearLayout>
 
