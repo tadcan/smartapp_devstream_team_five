@@ -3,14 +3,14 @@ package io.devstream.smartapp_team_five;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.text.Html;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 
 public class ClinicsDominoDublinActivity extends Activity {
 
-	private Button clinicDdNmhOpd;
+	private Button clinicDdNmhOpd; // Trying to style the button
 	private Button clinicDdLeopardstown;
 	private Button clinicDdDunLaoghaire;
 	private Button clinicDdChurchtown;
@@ -25,6 +25,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 		// set buttons for page
 		clinicDdNmhOpd = (Button) findViewById(R.id.clinics_d_d_nmh_opd);
 		clinicDdNmhOpd.setOnClickListener(new ButtonClick());
+		clinicDdNmhOpd.setTransformationMethod(null);
 
 		clinicDdLeopardstown = (Button) findViewById(R.id.clinics_d_d_leopardstown);
 		clinicDdLeopardstown.setOnClickListener(new ButtonClick());
@@ -40,7 +41,14 @@ public class ClinicsDominoDublinActivity extends Activity {
 
 		homeVisits = (Button) findViewById(R.id.home_visits);
 		homeVisits.setOnClickListener(new ButtonClick());
-
+	
+		// 
+		String text = getResources().getString(R.string.btn_d_d_nmh_opd);
+		//String arrayFormat = TextUtils.join("", my_array);
+		//String text = String.format(arrayFormat);
+		CharSequence styledText = Html.fromHtml(text);
+		clinicDdNmhOpd.setText(styledText);
+		
 	}
 
 	private class ButtonClick implements View.OnClickListener {

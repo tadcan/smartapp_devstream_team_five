@@ -33,7 +33,13 @@
     <!-- Clinics Dublin Domino -->
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
     <string name="mssg_dublin_domino">Select the Domino (Dublin) clinic\ncalendar you\'s like to view:</string>
-    <string name="btn_d_d_nmh_opd">NMH (OPD location)\n\t-Evening Booking Clinic\n\t-Weekly, Monday</string>
+
+    <string name="btn_d_d_nmh_opd">
+        &lt;b>NMH(OPD Location) &lt;/b>&lt;br>
+        &lt;small>-Evening Booking Clinic &lt;/small>&lt;br>
+        &lt;small>-Weekly, Monday &lt;/small>
+    </string>
+
     <string name="btn_d_d_leopardstown">Leopardstown\n\t-Weekly, Tuesday</string>
     <string name="btn_d_d_dun_laoghaire">Dun Laoghaire\n\t-St Michaels Hospital\n\t-Weekly Wednesday</string>
     <string name="btn_d_d_churchtown">ChurchTown\n\t-Weekly Thursday</string>

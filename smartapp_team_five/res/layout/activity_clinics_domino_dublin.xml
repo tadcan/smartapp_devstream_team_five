@@ -26,7 +26,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/btn_d_d_nmh_opd" />
+             />
 
         <Button
             android:id="@+id/clinics_d_d_leopardstown"
