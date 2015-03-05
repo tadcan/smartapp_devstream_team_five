@@ -15,7 +15,6 @@
             android:id="@+id/tv_eth_dublin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_eth_dublin" />
 
@@ -23,7 +22,6 @@
             android:id="@+id/clinics_eth_d_ballinteer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/btn_eth_d_ballinteer_mon" />
 

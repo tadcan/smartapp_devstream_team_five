@@ -37,7 +37,6 @@
             android:id="@+id/clinics_domino_kilmacanogue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/btn_d_w_kilmacanouge" />
 
@@ -45,7 +44,6 @@
             android:id="@+id/home_visits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/btn_home_visits" />
     </LinearLayout>
