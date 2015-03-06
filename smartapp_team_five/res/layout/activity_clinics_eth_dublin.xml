@@ -6,15 +6,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal|start"
         android:orientation="vertical"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center_horizontal|start"  >
+        android:paddingRight="10dp" >
 
         <TextView
             android:id="@+id/tv_eth_dublin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_eth_dublin" />
 
