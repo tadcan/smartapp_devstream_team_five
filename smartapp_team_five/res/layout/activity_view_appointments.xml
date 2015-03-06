@@ -21,15 +21,11 @@
 
         <Button
             android:id="@+id/clinics_landing_page"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             style="@style/ButtonStyle"
             android:text="@string/btn_clinics_landing_page" />
 
         <Button
             android:id="@+id/visits_landing_page"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             style="@style/ButtonStyle"
             android:text="@string/btn_visits_landing_page" />
     </LinearLayout>
