@@ -25,7 +25,6 @@ public class ClinicsDominoDublinActivity extends Activity {
 		// set buttons for page
 		clinicDdNmhOpd = (Button) findViewById(R.id.clinics_d_d_nmh_opd);
 		clinicDdNmhOpd.setOnClickListener(new ButtonClick());
-		clinicDdNmhOpd.setTransformationMethod(null);
 
 		clinicDdLeopardstown = (Button) findViewById(R.id.clinics_d_d_leopardstown);
 		clinicDdLeopardstown.setOnClickListener(new ButtonClick());

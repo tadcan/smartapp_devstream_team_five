@@ -23,41 +23,42 @@
             android:id="@+id/clinics_d_d_nmh_opd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp" />
+            style="@style/ButtonStyle"
+            android:text="@string/btn_d_d_nmh_opd" />
 
         <Button
             android:id="@+id/clinics_d_d_leopardstown"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_d_d_leopardstown" />
 
         <Button
             android:id="@+id/clinics_d_d_dun_laoghaire"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_d_d_dun_laoghaire" />
 
         <Button
             android:id="@+id/clinics_d_d_churchtown"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_d_d_churchtown" />
 
         <Button
             android:id="@+id/clinics_satellite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_salellite" />
 
         <Button
             android:id="@+id/home_visits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_home_visits" />
     </LinearLayout>
 

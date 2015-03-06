@@ -15,7 +15,7 @@
             android:id="@+id/tv_eth_wicklow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-             android:layout_gravity="center"
+            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="@string/mssg_dublin_domino" />
 
@@ -23,15 +23,14 @@
             android:id="@+id/clinics_eth_w_ballinteer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_eth_w_ballinteer_mon" />
 
         <Button
             android:id="@+id/clinics_eth_w_dunlaoghaire"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_eth_w_dunlaoghaire_tue" />
     </LinearLayout>
 

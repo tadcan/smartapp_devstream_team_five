@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/mssg_eth_dublin" />
 
         <Button
@@ -30,7 +30,7 @@
             android:id="@+id/clinics_eth_d_dunlaoghaire"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_eth_d_dunlaoghaire_tue" />
     </LinearLayout>
 

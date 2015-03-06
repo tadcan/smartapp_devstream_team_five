@@ -23,35 +23,35 @@
             android:id="@+id/clinics_domino_dublin"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_clinics_domino_dublin" />
 
         <Button
             android:id="@+id/clinics_domino_wicklow"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_clinics_domino_wicklow" />
 
         <Button
             android:id="@+id/clinics_eth_dublin"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_clinics_eth_dublin" />
 
         <Button
             android:id="@+id/clinics_eth_wicklow"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_clinics_eth_wicklow" />
 
         <Button
             android:id="@+id/clinics_satellite"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/btn_clinics_satellite" />
     </LinearLayout>
 
