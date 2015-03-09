@@ -26,29 +26,32 @@ public class ClinicsDominoDublinActivity extends Activity {
 		
 		
 		// set buttons for page
+		// NMH (OPD)
 		clinicDdNmhOpd = (Button) findViewById(R.id.btn_clinics_d_d_nmh_opd);
 		clinicDdNmhOpd.setOnClickListener(new ButtonClick());
 		clinicDdNmhOpd.setText(htmlST.htmlStyledText(R.string.btnText_d_d_nmh_opd));
 		
-		
+		// Leopardstown
 		clinicDdLeopardstown = (Button) findViewById(R.id.btn_clinics_d_d_leopardstown);
 		clinicDdLeopardstown.setOnClickListener(new ButtonClick());
 		clinicDdLeopardstown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_leopardstown));
-		
 
+		//  Dun Laoghaire
 		clinicDdDunLaoghaire = (Button) findViewById(R.id.btn_clinics_d_d_dun_laoghaire);
 		clinicDdDunLaoghaire.setOnClickListener(new ButtonClick());
 		clinicDdDunLaoghaire.setText(htmlST.htmlStyledText(R.string.btnText_d_d_dun_laoghaire));
-		
 
+		// ChurchTown
 		clinicDdChurchtown = (Button) findViewById(R.id.btn_clinics_d_d_churchtown);
 		clinicDdChurchtown.setOnClickListener(new ButtonClick());
 		clinicDdChurchtown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_churchtown));
 
+		// NMH
 		clinicSatellite = (Button) findViewById(R.id.btn_clinics_satellite);
 		clinicSatellite.setOnClickListener(new ButtonClick());
 		clinicSatellite.setText(htmlST.htmlStyledText(R.string.btnText_salellite));
 
+		// Home Visits
 		homeVisits = (Button) findViewById(R.id.btn_home_visits);
 		homeVisits.setOnClickListener(new ButtonClick());
 		homeVisits.setText(htmlST.htmlStyledText(R.string.btnText_home_visits));
