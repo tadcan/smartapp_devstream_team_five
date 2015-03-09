@@ -11,7 +11,7 @@
         android:paddingRight="10dp" >
 
         <TextView
-            android:id="@+id/btn_wicklow_domino_txt"
+            android:id="@+id/tv_domino_dublin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
