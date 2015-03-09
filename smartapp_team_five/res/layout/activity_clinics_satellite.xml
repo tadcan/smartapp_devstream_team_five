@@ -22,22 +22,22 @@
         <Button
             android:id="@+id/clinics_satellite_greystones"
             style="@style/ButtonStyle"
-            android:text="@string/btn_satelitte_greystones" />
+            android:text="@string/btnText_satelitte_greystones" />
 
         <Button
             android:id="@+id/clinics_satellite_arklow"
             style="@style/ButtonStyle"
-            android:text="@string/btn_satelitte_arklow" />
+            android:text="@string/btnText_satelitte_arklow" />
 
         <Button
             android:id="@+id/clinics_satellite_newtownmountkennedy"
             style="@style/ButtonStyle"
-            android:text="@string/btn_satelitte_newtownmountkennedy" />
+            android:text="@string/btnText_satelitte_newtownmountkennedy" />
 
         <Button
             android:id="@+id/clinics_satellite_bray"
             style="@style/ButtonStyle"
-            android:text="@string/btn_satelitte_bray" />
+            android:text="@string/btnText_satelitte_bray" />
     </LinearLayout>
 
 </ScrollView>

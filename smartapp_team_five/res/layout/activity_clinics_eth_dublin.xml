@@ -22,12 +22,12 @@
         <Button
             android:id="@+id/clinics_eth_d_ballinteer"
             style="@style/ButtonStyle"
-            android:text="@string/btn_eth_d_ballinteer_mon" />
+            android:text="@string/btnText_eth_d_ballinteer_mon" />
 
         <Button
             android:id="@+id/clinics_eth_d_dunlaoghaire"
             style="@style/ButtonStyle"
-            android:text="@string/btn_eth_d_dunlaoghaire_tue" />
+            android:text="@string/btnText_eth_d_dunlaoghaire_tue" />
     </LinearLayout>
 
 </ScrollView>

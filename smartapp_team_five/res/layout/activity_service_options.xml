@@ -22,27 +22,27 @@
         <Button
             android:id="@+id/clinics_domino_dublin"
             style="@style/ButtonStyle"
-            android:text="@string/btn_clinics_domino_dublin" />
+            android:text="@string/btnText_clinics_domino_dublin" />
 
         <Button
             android:id="@+id/clinics_domino_wicklow"
             style="@style/ButtonStyle"
-            android:text="@string/btn_clinics_domino_wicklow" />
+            android:text="@string/btnText_clinics_domino_wicklow" />
 
         <Button
             android:id="@+id/clinics_eth_dublin"
             style="@style/ButtonStyle"
-            android:text="@string/btn_clinics_eth_dublin" />
+            android:text="@string/btnText_clinics_eth_dublin" />
 
         <Button
             android:id="@+id/clinics_eth_wicklow"
             style="@style/ButtonStyle"
-            android:text="@string/btn_clinics_eth_wicklow" />
+            android:text="@string/btnText_clinics_eth_wicklow" />
 
         <Button
             android:id="@+id/clinics_satellite"
             style="@style/ButtonStyle"
-            android:text="@string/btn_clinics_satellite" />
+            android:text="@string/btnText_clinics_satellite" />
     </LinearLayout>
 
 </ScrollView>

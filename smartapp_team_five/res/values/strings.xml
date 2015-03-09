@@ -18,17 +18,17 @@
     <!-- Landing view -->
     <string name="title_activity_view_appointments">View Appointments</string>
     <string name="mssg_landing_page">Select the correct\nappointment calender</string>
-    <string name="btn_clinics_landing_page">Clinics\n(Ante-natal)</string>
-    <string name="btn_visits_landing_page">Visits\n(Post-natal)</string>
+    <string name="btnText_clinics_landing_page">Clinics\n(Ante-natal)</string>
+    <string name="btnText_visits_landing_page">Visits\n(Post-natal)</string>
 
     <!-- Service view -->
     <string name="title_activity_service_options">Service Options</string>
     <string name="mssg_service_option">Select the Service\noption you would like to view</string>
-    <string name="btn_clinics_domino_dublin">Domino (Dublin)</string>
-    <string name="btn_clinics_domino_wicklow">Domino (Wicklow)</string>
-    <string name="btn_clinics_eth_dublin">ETH Dublin</string>
-    <string name="btn_clinics_eth_wicklow">ETH Wicklow</string>
-    <string name="btn_clinics_satellite">Satellite</string>
+    <string name="btnText_clinics_domino_dublin">Domino (Dublin)</string>
+    <string name="btnText_clinics_domino_wicklow">Domino (Wicklow)</string>
+    <string name="btnText_clinics_eth_dublin">ETH Dublin</string>
+    <string name="btnText_clinics_eth_wicklow">ETH Wicklow</string>
+    <string name="btnText_clinics_satellite">Satellite</string>
 
     <!-- Clinics Dublin Domino -->
     <string name="title_activity_clinics_dublin_domino">Clinics Dublin Domino</string>
@@ -65,29 +65,29 @@
     <!-- Clinics Wicklow Domino -->
     <string name="title_activity_clinics_wicklow_domino">Wicklow Domino</string>
     <string name="mssg_wicklow_domino">Select the Domino (Wicklow) clinic\ncalendar you\'s like to view:</string>
-    <string name="btn_d_w_graystone_mon">Graystones&lt;br>-Weekly, Monday</string>
-    <string name="btn_d_w_graystones_tue">Graystones&lt;br>-Weekly, Tuesday</string>
-    <string name="btn_d_w_kilmacanouge">Kilmacanogue&lt;br>-Weekly, Thursday</string>
+    <string name="btnText_d_w_graystone_mon">Graystones&lt;br>-Weekly, Monday</string>
+    <string name="btnText_d_w_graystones_tue">Graystones&lt;br>-Weekly, Tuesday</string>
+    <string name="btnText_d_w_kilmacanouge">Kilmacanogue&lt;br>-Weekly, Thursday</string>
 
     <!-- Clinics ETH Dublin -->
     <string name="title_activity_clinics_eth_dublin">Clinics ETH Dublin</string>
     <string name="mssg_eth_dublin">Select a clinic</string>
-    <string name="btn_eth_d_ballinteer_mon">Ballinteer&lt;br>-Weekly, Monday</string>
-    <string name="btn_eth_d_dunlaoghaire_tue">Dun Laoghaire&lt;br>-Weekly, Tuesday</string>
+    <string name="btnText_eth_d_ballinteer_mon">Ballinteer&lt;br>-Weekly, Monday</string>
+    <string name="btnText_eth_d_dunlaoghaire_tue">Dun Laoghaire&lt;br>-Weekly, Tuesday</string>
 
     <!-- Clinics ETH Wicklow -->
     <string name="title_activity_clinics_eth_wicklow">Clinics ETH Wicklow</string>
     <string name="mssg_eth_wicklow">Select a clinic</string>
-    <string name="btn_eth_w_ballinteer_mon">Ballinteer&lt;br>-Weekly, Monday</string>
-    <string name="btn_eth_w_dunlaoghaire_tue">Dun Laoghaire&lt;br>-Weekly, Tuesday</string>
+    <string name="btnText_eth_w_ballinteer_mon">Ballinteer&lt;br>-Weekly, Monday</string>
+    <string name="btnText_eth_w_dunlaoghaire_tue">Dun Laoghaire&lt;br>-Weekly, Tuesday</string>
 
     <!-- Clinics Salelitte -->
     <string name="title_activity_clinics_satellite">Satellite Clinics</string>
     <string name="mssg_satelitte">Select the Satelitte clinic\ncalender you\'d like to view</string>
-    <string name="btn_satelitte_greystones">Greystones&lt;br>-Weekly, Monday</string>
-    <string name="btn_satelitte_arklow">Arklow&lt;br>-Weekly, Tuesday</string>
-    <string name="btn_satelitte_newtownmountkennedy">NewTownMountKennedy&lt;br>-Booking clinic&lt;br>Weekly, Wednesday</string>
-    <string name="btn_satelitte_bray">Bray&lt;br>-Weekly, Thursday</string>
+    <string name="btnText_satelitte_greystones">Greystones&lt;br>-Weekly, Monday</string>
+    <string name="btnText_satelitte_arklow">Arklow&lt;br>-Weekly, Tuesday</string>
+    <string name="btnText_satelitte_newtownmountkennedy">NewTownMountKennedy&lt;br>-Booking clinic&lt;br>Weekly, Wednesday</string>
+    <string name="btnText_satelitte_bray">Bray&lt;br>-Weekly, Thursday</string>
 
     <!-- Clinic Dates -->
     <string name="title_activity_clinic_dates">Clinic Dates</string>
