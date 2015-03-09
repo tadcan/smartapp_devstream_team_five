@@ -3,14 +3,14 @@ package io.devstream.smartapp_team_five;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.text.Html;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 public class ClinicsDominoDublinActivity extends Activity {
 
-	private Button clinicDdNmhOpd;
+	private Button clinicDdNmhOpd; // Trying to style the button
 	private Button clinicDdLeopardstown;
 	private Button clinicDdDunLaoghaire;
 	private Button clinicDdChurchtown;
@@ -21,34 +21,49 @@ public class ClinicsDominoDublinActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_domino_dublin);
-
+		
+		HtmlStyledText htmlST = new HtmlStyledText(this);
+		
+		
 		// set buttons for page
-		clinicDdNmhOpd = (Button) findViewById(R.id.clinics_d_d_nmh_opd);
+		// NMH (OPD)
+		clinicDdNmhOpd = (Button) findViewById(R.id.btn_clinics_d_d_nmh_opd);
 		clinicDdNmhOpd.setOnClickListener(new ButtonClick());
-
-		clinicDdLeopardstown = (Button) findViewById(R.id.clinics_d_d_leopardstown);
+		clinicDdNmhOpd.setText(htmlST.htmlStyledText(R.string.btnText_d_d_nmh_opd));
+		
+		// Leopardstown
+		clinicDdLeopardstown = (Button) findViewById(R.id.btn_clinics_d_d_leopardstown);
 		clinicDdLeopardstown.setOnClickListener(new ButtonClick());
+		clinicDdLeopardstown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_leopardstown));
 
-		clinicDdDunLaoghaire = (Button) findViewById(R.id.clinics_d_d_dun_laoghaire);
+		//  Dun Laoghaire
+		clinicDdDunLaoghaire = (Button) findViewById(R.id.btn_clinics_d_d_dun_laoghaire);
 		clinicDdDunLaoghaire.setOnClickListener(new ButtonClick());
+		clinicDdDunLaoghaire.setText(htmlST.htmlStyledText(R.string.btnText_d_d_dun_laoghaire));
 
-		clinicDdChurchtown = (Button) findViewById(R.id.clinics_d_d_churchtown);
+		// ChurchTown
+		clinicDdChurchtown = (Button) findViewById(R.id.btn_clinics_d_d_churchtown);
 		clinicDdChurchtown.setOnClickListener(new ButtonClick());
+		clinicDdChurchtown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_churchtown));
 
-		clinicSatellite = (Button) findViewById(R.id.clinics_satellite);
+		// NMH
+		clinicSatellite = (Button) findViewById(R.id.btn_clinics_satellite);
 		clinicSatellite.setOnClickListener(new ButtonClick());
+		clinicSatellite.setText(htmlST.htmlStyledText(R.string.btnText_salellite));
 
-		homeVisits = (Button) findViewById(R.id.home_visits);
+		// Home Visits
+		homeVisits = (Button) findViewById(R.id.btn_home_visits);
 		homeVisits.setOnClickListener(new ButtonClick());
-
+		homeVisits.setText(htmlST.htmlStyledText(R.string.btnText_home_visits));
+	
 	}
-
+	
 	private class ButtonClick implements View.OnClickListener {
 
 		public void onClick(View v) {
 
 			switch (v.getId()) {
-			case R.id.clinics_d_d_nmh_opd:
+			case R.id.btn_clinics_d_d_nmh_opd:
 				// launch intent to service option page
 				Intent toDdNmhOpdView = new Intent(
 						ClinicsDominoDublinActivity.this,
@@ -56,7 +71,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 				ClinicsDominoDublinActivity.this.startActivity(toDdNmhOpdView);
 				break;
 
-			case R.id.clinics_d_d_leopardstown:
+			case R.id.btn_clinics_d_d_leopardstown:
 				Intent toDdLeopardstownView = new Intent(
 						ClinicsDominoDublinActivity.this,
 						ClinicDatesActivity.class);
@@ -64,7 +79,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 						.startActivity(toDdLeopardstownView);
 				break;
 
-			case R.id.clinics_d_d_dun_laoghaire:
+			case R.id.btn_clinics_d_d_dun_laoghaire:
 				Intent toDdDunLaoghaireView = new Intent(
 						ClinicsDominoDublinActivity.this,
 						ClinicDatesActivity.class);
@@ -72,7 +87,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 						.startActivity(toDdDunLaoghaireView);
 				break;
 
-			case R.id.clinics_d_d_churchtown:
+			case R.id.btn_clinics_d_d_churchtown:
 				Intent toDdChurchTownView = new Intent(
 						ClinicsDominoDublinActivity.this,
 						ClinicDatesActivity.class);
@@ -80,7 +95,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 						.startActivity(toDdChurchTownView);
 				break;
 
-			case R.id.clinics_satellite:
+			case R.id.btn_clinics_satellite:
 				Intent toSatelitteClinics = new Intent(
 						ClinicsDominoDublinActivity.this,
 						ClinicDatesActivity.class);
@@ -88,7 +103,7 @@ public class ClinicsDominoDublinActivity extends Activity {
 						.startActivity(toSatelitteClinics);
 				break;
 
-			case R.id.home_visits:
+			case R.id.btn_home_visits:
 				Intent toHomeVisitsView = new Intent(
 						ClinicsDominoDublinActivity.this,
 						ClinicDatesActivity.class);
@@ -101,4 +116,3 @@ public class ClinicsDominoDublinActivity extends Activity {
 
 	}
 }
-

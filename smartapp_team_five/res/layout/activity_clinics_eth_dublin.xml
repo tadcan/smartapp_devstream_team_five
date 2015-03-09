@@ -6,6 +6,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal|start"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" >
@@ -15,27 +16,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
+            style="@style/ButtonStyle"
             android:text="@string/mssg_eth_dublin" />
 
         <Button
             android:id="@+id/clinics_eth_d_ballinteer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_eth_d_ballinteer_mon" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_eth_d_ballinteer_mon" />
 
         <Button
             android:id="@+id/clinics_eth_d_dunlaoghaire"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_eth_d_dunlaoghaire_tue" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_eth_d_dunlaoghaire_tue" />
     </LinearLayout>
 
 </ScrollView>

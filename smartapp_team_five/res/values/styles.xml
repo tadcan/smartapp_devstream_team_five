@@ -1,10 +1,10 @@
 <resources>
-    
+
     <!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
-    <style name="LightThemeSelector" parent="android:Theme.Holo.Light">
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
@@ -12,13 +12,8 @@
         -->
     </style>
 
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
-    
     <style name="DefaultButtonText">
-       <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">#979797</item>
         <item name="android:gravity">center</item>
@@ -31,7 +26,4 @@
         <item name="android:shadowRadius">5</item>
     </style>
 
-
-
 </resources>
-

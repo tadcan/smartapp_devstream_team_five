@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/smartapp_team_five/bin/dexedLibs/android-support-v4-1d9cef58a0f68b8e2d0a93e9f90b5acf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/smartapp_team_five/bin/dexedLibs/android-support-v7-appcompat-3766e1e7c3f17cf612c0015641e096d2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

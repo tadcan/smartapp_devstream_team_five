@@ -6,6 +6,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal|start"
         android:orientation="vertical"
         android:paddingLeft="10dp"
         android:paddingRight="10dp" >
@@ -20,41 +21,23 @@
 
         <Button
             android:id="@+id/clinics_satellite_greystones"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_satelitte_greystones" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_satelitte_greystones" />
 
         <Button
             android:id="@+id/clinics_satellite_arklow"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_satelitte_arklow" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_satelitte_arklow" />
 
         <Button
             android:id="@+id/clinics_satellite_newtownmountkennedy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_satelitte_newtownmountkennedy" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_satelitte_newtownmountkennedy" />
 
         <Button
             android:id="@+id/clinics_satellite_bray"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/btn_satelitte_bray" />
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_satelitte_bray" />
     </LinearLayout>
 
 </ScrollView>
