@@ -37,7 +37,7 @@
         <Button
             android:id="@+id/home_visits"
             style="@style/ButtonStyle"
-            android:text="@string/btn_home_visits" />
+            android:text="@string/btnText_home_visits" />
     </LinearLayout>
 
 </ScrollView>

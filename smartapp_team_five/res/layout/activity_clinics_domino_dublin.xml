@@ -20,34 +20,34 @@
             android:text="@string/mssg_dublin_domino" />
 
         <Button
-            android:id="@+id/clinics_d_d_nmh_opd"
+            android:id="@+id/btn_clinics_d_d_nmh_opd"
             style="@style/ButtonStyle"
-            android:text="@string/btn_d_d_nmh_opd" />
+            android:text="@string/btnText_d_d_nmh_opd" />
 
         <Button
-            android:id="@+id/clinics_d_d_leopardstown"
+            android:id="@+id/btn_clinics_d_d_leopardstown"
             style="@style/ButtonStyle"
-            android:text="@string/btn_d_d_leopardstown" />
+            android:text="@string/btnText_d_d_leopardstown" />
 
         <Button
-            android:id="@+id/clinics_d_d_dun_laoghaire"
+            android:id="@+id/btn_clinics_d_d_dun_laoghaire"
             style="@style/ButtonStyle"
-            android:text="@string/btn_d_d_dun_laoghaire" />
+            android:text="@string/btnText_d_d_dun_laoghaire" />
 
         <Button
-            android:id="@+id/clinics_d_d_churchtown"
+            android:id="@+id/btn_clinics_d_d_churchtown"
             style="@style/ButtonStyle"
-            android:text="@string/btn_d_d_churchtown" />
+            android:text="@string/btnText_d_d_churchtown" />
 
         <Button
-            android:id="@+id/clinics_satellite"
+            android:id="@+id/btn_clinics_satellite"
             style="@style/ButtonStyle"
-            android:text="@string/btn_salellite" />
+            android:text="@string/btnText_salellite" />
 
         <Button
-            android:id="@+id/home_visits"
+            android:id="@+id/btn_home_visits"
             style="@style/ButtonStyle"
-            android:text="@string/btn_home_visits" />
+            android:text="@string/btnText_home_visits" />
     </LinearLayout>
 
 </ScrollView>
