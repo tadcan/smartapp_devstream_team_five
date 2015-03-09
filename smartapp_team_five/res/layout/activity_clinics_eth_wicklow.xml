@@ -11,7 +11,7 @@
         android:paddingRight="10dp" >
 
         <TextView
-            android:id="@+id/service_options_text"
+            android:id="@+id/tv_eth_wicklow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

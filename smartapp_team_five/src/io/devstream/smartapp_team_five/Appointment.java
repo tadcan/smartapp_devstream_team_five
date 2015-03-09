@@ -26,7 +26,7 @@ public class Appointment
 
     private String date;
 
-    private ServiceUser serviceUser;
+    //private ServiceUser serviceUser;
 
     public String getId ()
     {
@@ -137,7 +137,7 @@ public class Appointment
     {
         this.date = date;
     }
-
+/*
     public ServiceUser getServiceUser ()
     {
         return serviceUser;
@@ -149,4 +149,5 @@ public class Appointment
     {
         this.serviceUser = serviceUser;
     }
+    */
 }
