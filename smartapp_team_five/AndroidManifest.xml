@@ -60,6 +60,10 @@
             android:name=".ClinicDatesActivity"
             android:label="@string/title_activity_clinic_dates" >
         </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

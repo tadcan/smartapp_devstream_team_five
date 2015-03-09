@@ -15,7 +15,7 @@ public class ClinicDatesActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinic_dates);
 		
-		//Intent intent = new Intent(ClinicDatesActivity.this, CalendarActivity.class,);
-		//startActivity(intent);
+		Intent intent = new Intent(ClinicDatesActivity.this, CalendarActivity.class);
+		startActivity(intent);
 	}
 }

@@ -22,24 +22,18 @@ public class HttpAuthClass {
 	private String tableURL;
 	private String apiKey = "f95a26e5-38d3-4161-b9c1-acb2cfc151c6";
 	private  JSONObject jsonobj;
-	//                       f95a26e5­38d3­4161­b9c1­acb2cfc151c6
-	//apikey>f95a26e5­38d3­4161­b9c1­acb2cfc151c6
-	//token>fee3d8dcde4b9feff85c
 
 	public HttpAuthClass(String loginURL, String tableURL) {
 		this.loginURL = loginURL;
 		this.tableURL = tableURL;
 		String token = getTheAuthKey(loginURL);
 		System.out.println(token);
-		this.jsonobj=getJSON(token);
-		
+		this.jsonobj=getJSON(token);		
 	}
-
 
 	public   JSONObject getJsonobj() {
 		return jsonobj;
 	}
-
 
 	// get the auth key
 	private String getTheAuthKey(String loginURL) {
@@ -74,18 +68,21 @@ public class HttpAuthClass {
 		      System.out.println(strToken);
 		      httpcon.disconnect();
 		      return strToken;
-		} catch (IOException | JSONException e) {
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException  e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}return null;		
 	}
 	
 	// using the auth key and api key we can access the database
-	private  JSONObject getJSON(String token) {
+	private  String getStr(String token) {
 
 		URL obj;
 		String result = "";
-		JSONObject jArray = null;
+
 		Log.d("jp1!", "jp03");
 		try {
 			obj = new URL(tableURL);
@@ -115,18 +112,46 @@ public class HttpAuthClass {
 			//print result
 			result = response.toString();
 			System.out.println(result);
+			//jArray = new JSONObject(result);
+			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+	    } catch (Exception e) {
+	        // error log here
+			e.printStackTrace();	
 		}
-		
+		Log.d("jp7", result);
+		return result;
+	}
+
+	private  JSONObject getJSON(String token) {
+		JSONObject jArray = null;
+		String result = this.getStr(token);
 		try {
 			jArray = new JSONObject(result);
 		} catch (JSONException e) {
-			Log.e("log_tag", "Error parsing data " + e.toString());
+			Log.e("log_tag", "Error parsing data " + e.toString());	
+			e.printStackTrace();
 		}
-		Log.d("jp1!", "jp04");
-		return jArray;
+		return jArray;	
 	}
+	
 }
+
+/*
+ * $ curl -X GET 54.72.7.91:8888/service_providers/1  -d '{}' \
+  -H "Auth-Token: S3cr3t" \
+  -H "Api-Key: 3g3tyh43gswe"
+  $ curl -X GET 54.72.7.91:8888/pregnancies  -d '{}' \
+  -H "Auth-Token: S3cr3t" \
+  -H "Api-Key: 3g3tyh43gswe"
+  
+  $ curl -X GET 54.72.7.91:8888/service_users/1  -d '{}' \
+  -H "Auth-Token: S3cr3t" \
+  -H "Api-Key: 3g3tyh43gswe"
+name
+
+*/
+  
