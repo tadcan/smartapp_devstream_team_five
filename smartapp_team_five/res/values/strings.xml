@@ -73,7 +73,7 @@
 
     <!-- Service_User -->
     <string name="title_activity_service_user">Service User</string>
-    <string name="label_0">ServiceUserActivity</string>
+    <string name="label_0">ServiceUser</string>
     <string name="label_1">Previous</string>
     <string name="label_2">Edit</string>
     <string name="label_3">Ante_natal</string>
@@ -81,5 +81,27 @@
     <string name="label_5">Contact</string>
     <string name="label_6">Next_of_kin</string>
     <string name="label_7">Book_Appointment</string>
+    <string name="label_8">Person</string>
+    <string name="label_9">EDD</string>
+    <string name="label_10">Gestation</string>
+    <string name="label_11">Blood_Group</string>
+    <string name="label_12">Rhesus</string>
+    <string name="label_13">Parity</string>
+    <string name="label_14">Obstretic_history</string>
+    <string name="label_15">Mother</string>
+    <string name="label_16">Birth_Mode</string>
+    <string name="label_17">Preineum</string>
+    <string name="label_18">Anti_D</string>
+    <string name="label_19">Mother_Note</string>
+    <string name="label_20">Baby</string>
+    <string name="label_21">Date_fo_Delivery</string>
+    <string name="label_22">Time_of_Delivery</string>
+    <string name="label_23">Date_Since_Birth</string>
+    <string name="label_24">Sex_of_Baby</string>
+    <string name="label_25">Birth_Weight</string>
+    <string name="label_26">Vitk</string>
+    <string name="label_27">Hearing</string>
+    <string name="label_28">Feeding</string>
+    <string name="label_29">NBST</string>
 
 </resources>
