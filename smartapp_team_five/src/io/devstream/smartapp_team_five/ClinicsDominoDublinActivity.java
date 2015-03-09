@@ -22,50 +22,39 @@ public class ClinicsDominoDublinActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_domino_dublin);
 		
+		HtmlStyledText htmlST = new HtmlStyledText(this);
+		
 		
 		// set buttons for page
 		clinicDdNmhOpd = (Button) findViewById(R.id.btn_clinics_d_d_nmh_opd);
 		clinicDdNmhOpd.setOnClickListener(new ButtonClick());
-		clinicDdNmhOpd.setText(htmlStyledText(R.string.btnText_d_d_nmh_opd));
+		clinicDdNmhOpd.setText(htmlST.htmlStyledText(R.string.btnText_d_d_nmh_opd));
 		
 		
 		clinicDdLeopardstown = (Button) findViewById(R.id.btn_clinics_d_d_leopardstown);
 		clinicDdLeopardstown.setOnClickListener(new ButtonClick());
-		clinicDdLeopardstown.setText(htmlStyledText(R.string.btnText_d_d_leopardstown));
+		clinicDdLeopardstown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_leopardstown));
 		
 
 		clinicDdDunLaoghaire = (Button) findViewById(R.id.btn_clinics_d_d_dun_laoghaire);
 		clinicDdDunLaoghaire.setOnClickListener(new ButtonClick());
-		clinicDdDunLaoghaire.setText(htmlStyledText(R.string.btnText_d_d_dun_laoghaire));
+		clinicDdDunLaoghaire.setText(htmlST.htmlStyledText(R.string.btnText_d_d_dun_laoghaire));
 		
 
 		clinicDdChurchtown = (Button) findViewById(R.id.btn_clinics_d_d_churchtown);
 		clinicDdChurchtown.setOnClickListener(new ButtonClick());
-		clinicDdChurchtown.setText(htmlStyledText(R.string.btnText_d_d_churchtown));
+		clinicDdChurchtown.setText(htmlST.htmlStyledText(R.string.btnText_d_d_churchtown));
 
 		clinicSatellite = (Button) findViewById(R.id.btn_clinics_satellite);
 		clinicSatellite.setOnClickListener(new ButtonClick());
-		clinicSatellite.setText(htmlStyledText(R.string.btnText_salellite));
+		clinicSatellite.setText(htmlST.htmlStyledText(R.string.btnText_salellite));
 
 		homeVisits = (Button) findViewById(R.id.btn_home_visits);
 		homeVisits.setOnClickListener(new ButtonClick());
-		homeVisits.setText(htmlStyledText(R.string.btnText_home_visits));
+		homeVisits.setText(htmlST.htmlStyledText(R.string.btnText_home_visits));
 	
 	}
 	
-	private CharSequence htmlStyledText(int btnID) {
-		Log.d("MYLOG","Value of r.id as parameter is: " + btnID);
-		// Process html tags in strings.xml
-		
-		String text = getResources().getString(btnID);
-		Log.d("MYLOG","Value of text after getResources in method: " + text);
-		
-		CharSequence styledText = Html.fromHtml(text);
-		Log.d("MYLOG","Value of styledText as CharSequence in method: " + styledText);
-		
-		return styledText;
-	}
-
 	private class ButtonClick implements View.OnClickListener {
 
 		public void onClick(View v) {
