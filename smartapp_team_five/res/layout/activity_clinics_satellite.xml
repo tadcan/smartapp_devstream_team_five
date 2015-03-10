@@ -21,21 +21,33 @@
 
         <Button
             android:id="@+id/clinics_satellite_greystones"
+            android:layout_width="match_parent"
+       		android:layout_height="100dp"
+        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_satelitte_greystones" />
 
         <Button
             android:id="@+id/clinics_satellite_arklow"
+            android:layout_width="match_parent"
+       		android:layout_height="100dp"
+        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_satelitte_arklow" />
 
         <Button
             android:id="@+id/clinics_satellite_newtownmountkennedy"
+            android:layout_width="match_parent"
+       		android:layout_height="100dp"
+        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_satelitte_newtownmountkennedy" />
 
         <Button
             android:id="@+id/clinics_satellite_bray"
+            android:layout_width="match_parent"
+       		android:layout_height="100dp"
+        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_satelitte_bray" />
     </LinearLayout>
