@@ -20,17 +20,23 @@ public class ClinicsSatelliteActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_satellite);
 		
+		HtmlStyledText htmlST = new HtmlStyledText(this);
+		
 		clinicSatelliteGreystones = (Button)findViewById(R.id.clinics_satellite_greystones);
 		clinicSatelliteGreystones.setOnClickListener(new ButtonClick() );
+		clinicSatelliteGreystones.setText(htmlST.htmlStyledText(R.id.clinics_satellite_greystones));
 			
 		clinicSatelliteArklow = (Button)findViewById(R.id.clinics_satellite_arklow);
 		clinicSatelliteArklow.setOnClickListener(new ButtonClick() );
+		clinicSatelliteArklow.setText(htmlST.htmlStyledText(R.id.clinics_satellite_arklow));
 		
 		clinicSatelliteNewtownmountkennedy = (Button)findViewById(R.id.clinics_satellite_newtownmountkennedy);
 		clinicSatelliteNewtownmountkennedy.setOnClickListener(new ButtonClick() );
+		clinicSatelliteNewtownmountkennedy.setText(htmlST.htmlStyledText(R.id.clinics_satellite_newtownmountkennedy));
 			
 		clinicSatelliteBray = (Button)findViewById(R.id.clinics_satellite_bray);
 		clinicSatelliteBray.setOnClickListener(new ButtonClick() );
+		clinicSatelliteBray.setText(htmlST.htmlStyledText(R.id.clinics_satellite_newtownmountkennedy));
 	}
 	
 	private class ButtonClick implements View.OnClickListener {

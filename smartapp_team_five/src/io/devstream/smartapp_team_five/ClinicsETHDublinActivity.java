@@ -18,11 +18,15 @@ public class ClinicsETHDublinActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_eth_dublin);
 		
+		HtmlStyledText htmlST = new HtmlStyledText(this);
+		
 		clinicEthDubBallinteer = (Button)findViewById(R.id.clinics_eth_d_ballinteer);
 		clinicEthDubBallinteer.setOnClickListener(new ButtonClick() );
+		clinicEthDubBallinteer.setText(htmlST.htmlStyledText(R.id.clinics_eth_d_ballinteer));
 			
 		clinicEthDubDunLaoghaire = (Button)findViewById(R.id.clinics_eth_d_dunlaoghaire);
 		clinicEthDubDunLaoghaire.setOnClickListener(new ButtonClick() );
+		clinicEthDubDunLaoghaire.setText(htmlST.htmlStyledText(R.id.clinics_eth_d_dunlaoghaire));
 	}
 	
 private class ButtonClick implements View.OnClickListener {

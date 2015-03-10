@@ -20,17 +20,23 @@ public class ClinicsDominoWicklowActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_clinics_domino_wicklow);
 		
+		HtmlStyledText htmlST = new HtmlStyledText(this);
+		
 		clinicDGreystonesMon = (Button)findViewById(R.id.clinics_domino_greystones_mon);
 		clinicDGreystonesMon.setOnClickListener(new ButtonClick() );
+		clinicDGreystonesMon.setText(htmlST.htmlStyledText(R.id.clinics_domino_greystones_mon));
 			
 		clinicDGreystonesTue = (Button)findViewById(R.id.clinics_domino_greystones_tue);
 		clinicDGreystonesTue.setOnClickListener(new ButtonClick() );
+		clinicDGreystonesTue.setText(htmlST.htmlStyledText(R.id.clinics_domino_greystones_tue));
 			
 		clinicDKilmacanogue = (Button)findViewById(R.id.clinics_domino_kilmacanogue);
 		clinicDKilmacanogue.setOnClickListener(new ButtonClick() );
+		clinicDKilmacanogue.setText(htmlST.htmlStyledText(R.id.clinics_domino_kilmacanogue));
 		
 		homeVisits = (Button)findViewById(R.id.home_visits);
 		homeVisits.setOnClickListener(new ButtonClick() );
+		homeVisits.setText(htmlST.htmlStyledText(R.id.home_visits));
 	}
 	
 	private class ButtonClick implements View.OnClickListener {
