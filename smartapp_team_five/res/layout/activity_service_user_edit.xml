@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9db2ff"
+    android:orientation="vertical" >
+    
+     <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_15"
+            android:textColor="#bc1339" />
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_16" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />
+        
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_17" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />
+        
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_18" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />
+        
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_19" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />
+        
+    </LinearLayout>
+       
+      <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_20"
+            android:textColor="#bc1339" />
+      
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_21" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_22" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_23" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_24" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout> 
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_25" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>  
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_26" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>   
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_27" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>  
+    
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:weightSum="2" >
+                           
+           <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    		android:inputType="date"
+    		android:background="#f5f5f5"
+    	    android:layout_weight="1.5"/>
+          
+           <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_28" 
+            android:textColor="#bc1339"
+            android:layout_weight="0.5" />         
+                   
+    </LinearLayout>
+
+</LinearLayout>
