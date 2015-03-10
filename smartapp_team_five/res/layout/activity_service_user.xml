@@ -1,8 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#fce17e"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -11,19 +10,27 @@
         android:orientation="horizontal"
         android:weightSum="3" >
 
-  <ImageView
-            android:src="@drawable/back"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/small_font"
-            android:layout_weight="1"           
-            android:gravity="center" />
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/back" />
+
+        <Button
+            android:id="@+id/label_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginTop="@dimen/small_font"
+            android:layout_weight="1"
             android:gravity="center"
             android:text="@string/label_0"
             android:textColor="#a10000"
@@ -53,15 +60,14 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="@string/label_3" />
-        
+
         <ImageView
-            android:src="@drawable/personal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/small_font"
-            android:layout_weight="1"           
-            android:gravity="center" />
-           
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/personal" />
 
         <Button
             android:id="@+id/label_4"
@@ -72,23 +78,20 @@
             android:gravity="end"
             android:text="@string/label_4" />
     </LinearLayout>
-    
-   <LinearLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="1" >
-        
-         <Button
-       android:id="@+id/label_7"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="@dimen/small_font"
-       android:gravity="center"
-       android:text="@string/label_7" />
-       
-   
+
+        <Button
+            android:id="@+id/label_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_font"
+            android:gravity="center"
+            android:text="@string/label_7" />
     </LinearLayout>
-     
 
 </LinearLayout>

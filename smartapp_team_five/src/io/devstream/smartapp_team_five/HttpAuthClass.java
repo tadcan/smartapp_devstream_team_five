@@ -130,3 +130,4 @@ public class HttpAuthClass {
 		return jArray;
 	}
 }
+

@@ -10,9 +10,9 @@ public class ServiceUsers
 
     private String[] pregnancy_ids;
 
-    private ClinicalFields clinical_fields;
+    private ClinicalFields clinicalFields;
 
-    private PersonalFields personal_fields;
+    private PersonalFields personalFields;
 
     public String getId ()
     {
@@ -54,30 +54,29 @@ public class ServiceUsers
         this.pregnancy_ids = pregnancy_ids;
     }
 
-    public ClinicalFields getClinical_fields ()
+    public ClinicalFields getClinicalFields ()
     {
-        return clinical_fields;
+        return clinicalFields;
     }
 
-    public void setClinical_fields (ClinicalFields clinical_fields)
+    public void setClinicalFields (ClinicalFields ClinicalFields)
     {
-        this.clinical_fields = clinical_fields;
+        this.clinicalFields = clinicalFields;
     }
 
     public PersonalFields getPersonal_fields ()
     {
-        return personal_fields;
+        return personalFields;
     }
 
-    public void setPersonal_fields (PersonalFields personal_fields)
+    public void setPersonalFields (PersonalFields personal_Fields)
     {
-        this.personal_fields = personal_fields;
+        this.personalFields = personalFields;
     }
 
     @Override
     public String toString()
     {
-        return "ClassPojo [id = "+id+", baby_ids = "+baby_ids+", hospital_number = "+hospital_number+", pregnancy_ids = "+pregnancy_ids+", clinical_fields = "+clinical_fields+", personal_fields = "+personal_fields+"]";
+        return "ClassPojo [id = "+id+", baby_ids = "+baby_ids+", hospital_number = "+hospital_number+", pregnancy_ids = "+pregnancy_ids+", ClinicalFields = "+ clinicalFields+", personalFields = "+ personalFields+"]";
     }
 }
-			

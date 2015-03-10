@@ -1,39 +1,33 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp" >
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
 
-
-    <TextView
-        android:id="@+id/tv_landing_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:text="@string/mssg_landing_page" />
-
-    <Button
-        android:id="@+id/clinics_landing_page"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:layout_weight=".5"
-        android:gravity="center"
-        android:text="@string/btn_clinics_landing_page" />
+        android:gravity="center_horizontal|start"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
 
+        <TextView
+            android:id="@+id/tv_landing_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/mssg_landing_page" />
 
-    <Button
-        android:id="@+id/visits_landing_page"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_weight=".5"
-        android:gravity="center"
-        android:text="@string/btn_visits_landing_page" />
+        <Button
+            android:id="@+id/clinics_landing_page"
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_clinics_landing_page" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/visits_landing_page"
+            style="@style/ButtonStyle"
+            android:text="@string/btnText_visits_landing_page" />
+    </LinearLayout>
 
-
+</ScrollView>
