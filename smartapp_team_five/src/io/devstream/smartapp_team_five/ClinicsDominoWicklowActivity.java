@@ -41,23 +41,23 @@ public class ClinicsDominoWicklowActivity extends Activity {
 			switch( v.getId() ) {
 								
 				case R.id.clinics_domino_greystones_mon:
-					Intent toDGreystonesMonView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
-					ClinicsDominoWicklowActivity.this.startActivity(toDGreystonesMonView);
+					Intent toCalenderViewOne = new Intent(ClinicsDominoWicklowActivity.this, CalendarActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toCalenderViewOne);
 				break;
 					
 				case R.id.clinics_domino_greystones_tue:
-					Intent toDGreystonesTueView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
-					ClinicsDominoWicklowActivity.this.startActivity(toDGreystonesTueView);
+					Intent toCalenderViewTwo = new Intent(ClinicsDominoWicklowActivity.this, CalendarActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toCalenderViewTwo);
 				break;
 				
 				case R.id.clinics_domino_kilmacanogue:
-					Intent toDKilmacanogueView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
-					ClinicsDominoWicklowActivity.this.startActivity(toDKilmacanogueView);
+					Intent toCalenderViewThree = new Intent(ClinicsDominoWicklowActivity.this, CalendarActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toCalenderViewThree);
 				break;
 				
 				case R.id.home_visits:
-					Intent toHomeVisitsView = new Intent(ClinicsDominoWicklowActivity.this, ClinicDatesActivity.class);
-					ClinicsDominoWicklowActivity.this.startActivity(toHomeVisitsView);
+					Intent toCalenderViewFour = new Intent(ClinicsDominoWicklowActivity.this, CalendarActivity.class);
+					ClinicsDominoWicklowActivity.this.startActivity(toCalenderViewFour);
 				break;
 				
 			}

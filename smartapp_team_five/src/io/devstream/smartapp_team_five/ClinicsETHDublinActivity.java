@@ -33,13 +33,13 @@ private class ButtonClick implements View.OnClickListener {
 			switch( v.getId() ) {
 								
 				case R.id.clinics_eth_d_ballinteer:
-					Intent toEthDBallinteerView = new Intent(ClinicsETHDublinActivity.this, ClinicDatesActivity.class);
-					ClinicsETHDublinActivity.this.startActivity(toEthDBallinteerView);
+					Intent toCalenderViewOne = new Intent(ClinicsETHDublinActivity.this, CalendarActivity.class);
+					ClinicsETHDublinActivity.this.startActivity(toCalenderViewOne);
 				break;
 					
 				case R.id.clinics_eth_d_dunlaoghaire:
-					Intent toEthDDunLaoghaireView = new Intent(ClinicsETHDublinActivity.this, ClinicDatesActivity.class);
-					ClinicsETHDublinActivity.this.startActivity(toEthDDunLaoghaireView);
+					Intent toCalenderViewTwo = new Intent(ClinicsETHDublinActivity.this, CalendarActivity.class);
+					ClinicsETHDublinActivity.this.startActivity(toCalenderViewTwo);
 				break;
 			}
 		}

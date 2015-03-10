@@ -41,23 +41,23 @@ public class ClinicsSatelliteActivity extends Activity {
 				switch( v.getId() ) {
 									
 					case R.id.clinics_satellite_greystones:
-						Intent toSatelitteGreystonesView = new Intent(ClinicsSatelliteActivity.this, ClinicDatesActivity.class);
-						ClinicsSatelliteActivity.this.startActivity(toSatelitteGreystonesView);
+						Intent toCalenderViewOne = new Intent(ClinicsSatelliteActivity.this, CalendarActivity.class);
+						ClinicsSatelliteActivity.this.startActivity(toCalenderViewOne);
 					break;
 						
 					case R.id.clinics_satellite_arklow:
-						Intent toSatelitteArklowView = new Intent(ClinicsSatelliteActivity.this, ClinicDatesActivity.class);
-						ClinicsSatelliteActivity.this.startActivity(toSatelitteArklowView);
+						Intent toCalenderViewTwo = new Intent(ClinicsSatelliteActivity.this, CalendarActivity.class);
+						ClinicsSatelliteActivity.this.startActivity(toCalenderViewTwo);
 					break;
 					
 					case R.id.clinics_satellite_newtownmountkennedy:
-						Intent toSatelitteNewtownmountkennedyView = new Intent(ClinicsSatelliteActivity.this, ClinicDatesActivity.class);
-						ClinicsSatelliteActivity.this.startActivity(toSatelitteNewtownmountkennedyView);
+						Intent toCalenderViewThree = new Intent(ClinicsSatelliteActivity.this, CalendarActivity.class);
+						ClinicsSatelliteActivity.this.startActivity(toCalenderViewThree);
 					break;
 						
 					case R.id.clinics_satellite_bray:
-						Intent toSatelitteBrayView = new Intent(ClinicsSatelliteActivity.this, ClinicDatesActivity.class);
-						ClinicsSatelliteActivity.this.startActivity(toSatelitteBrayView);
+						Intent toCalenderViewFour = new Intent(ClinicsSatelliteActivity.this, CalendarActivity.class);
+						ClinicsSatelliteActivity.this.startActivity(toCalenderViewFour);
 					break;
 				}
 			}

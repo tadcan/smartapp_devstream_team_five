@@ -65,50 +65,50 @@ public class ClinicsDominoDublinActivity extends Activity {
 			switch (v.getId()) {
 			case R.id.btn_clinics_d_d_nmh_opd:
 				// launch intent to service option page
-				Intent toDdNmhOpdView = new Intent(
+				Intent toCalenderViewOne = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
-				ClinicsDominoDublinActivity.this.startActivity(toDdNmhOpdView);
+						CalendarActivity.class);
+				ClinicsDominoDublinActivity.this.startActivity(toCalenderViewOne);
 				break;
 
 			case R.id.btn_clinics_d_d_leopardstown:
-				Intent toDdLeopardstownView = new Intent(
+				Intent toCalenderViewTwo = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
+						CalendarActivity.class);
 				ClinicsDominoDublinActivity.this
-						.startActivity(toDdLeopardstownView);
+						.startActivity(toCalenderViewTwo);
 				break;
 
 			case R.id.btn_clinics_d_d_dun_laoghaire:
-				Intent toDdDunLaoghaireView = new Intent(
+				Intent toCalenderViewThree = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
+						CalendarActivity.class);
 				ClinicsDominoDublinActivity.this
-						.startActivity(toDdDunLaoghaireView);
+						.startActivity(toCalenderViewThree);
 				break;
 
 			case R.id.btn_clinics_d_d_churchtown:
-				Intent toDdChurchTownView = new Intent(
+				Intent toCalenderViewFour = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
+						CalendarActivity.class);
 				ClinicsDominoDublinActivity.this
-						.startActivity(toDdChurchTownView);
+						.startActivity(toCalenderViewFour);
 				break;
 
 			case R.id.btn_clinics_satellite:
-				Intent toSatelitteClinics = new Intent(
+				Intent toCalenderViewFive = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
+						CalendarActivity.class);
 				ClinicsDominoDublinActivity.this
-						.startActivity(toSatelitteClinics);
+						.startActivity(toCalenderViewFive);
 				break;
 
 			case R.id.btn_home_visits:
-				Intent toHomeVisitsView = new Intent(
+				Intent toCalenderViewSix = new Intent(
 						ClinicsDominoDublinActivity.this,
-						ClinicDatesActivity.class);
+						CalendarActivity.class);
 				ClinicsDominoDublinActivity.this
-						.startActivity(toHomeVisitsView);
+						.startActivity(toCalenderViewSix);
 				break;
 
 			}
