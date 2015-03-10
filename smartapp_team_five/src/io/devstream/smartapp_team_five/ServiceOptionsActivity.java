@@ -58,11 +58,6 @@ public class ServiceOptionsActivity extends Activity {
 				break;
 				
 				case R.id.clinics_domino_wicklow:
-					/*	Log.d("ButtonLog","Inside case domino wicklow");
-					Intent toDominioWicklowView = new Intent(ServiceOptionsActivity.this, ClinicsDominoWicklowActivity.class);
-						Log.d("ButtonLog","dw set intent with this and class");			  
-					ServiceOptionsActivity.this.startActivity(toDominioWicklowView);
-						Log.d("ButtonLog", "from current activity launch new activity");*/
 					Log.d("ButtonLog","Inside case domino dublin");
 					// launch intent to service option page
 					Intent toDominoDublinView1 = new Intent(ServiceOptionsActivity.this, ClinicsDominoWicklowActivity.class);
