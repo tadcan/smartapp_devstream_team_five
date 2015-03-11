@@ -9,8 +9,6 @@
         <!-- API 21 theme customizations can go here. -->
     </style>
 
-    <style name="ButtonStyle" parent="AppBaseTheme">
-        <item name="android:textAllCaps">false</item>
-    </style>
+    
 
 </resources>

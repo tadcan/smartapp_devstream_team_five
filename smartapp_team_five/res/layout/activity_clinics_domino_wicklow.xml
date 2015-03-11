@@ -21,33 +21,21 @@
 
         <Button
             android:id="@+id/clinics_domino_greystones_mon"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_d_w_graystone_mon" />
 
         <Button
             android:id="@+id/clinics_domino_greystones_tue"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_d_w_graystones_tue" />
 
         <Button
             android:id="@+id/clinics_domino_kilmacanogue"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_d_w_kilmacanouge" />
 
         <Button
             android:id="@+id/home_visits"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_home_visits" />
     </LinearLayout>

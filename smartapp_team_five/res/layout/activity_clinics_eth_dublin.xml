@@ -21,17 +21,11 @@
 
         <Button
             android:id="@+id/clinics_eth_d_ballinteer"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_eth_d_ballinteer_mon" />
 
         <Button
             android:id="@+id/clinics_eth_d_dunlaoghaire"
-            android:layout_width="match_parent"
-       		android:layout_height="100dp"
-        	android:layout_margin="10dp"
             style="@style/ButtonStyle"
             android:text="@string/btnText_eth_d_dunlaoghaire_tue" />
     </LinearLayout>
