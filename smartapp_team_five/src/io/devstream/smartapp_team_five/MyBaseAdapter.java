@@ -168,7 +168,7 @@ public class MyBaseAdapter extends BaseAdapter  {
 				break;
 			case R.id.btnSun:
 				// Start a new Activity
-				Intent intent = new Intent(context.getApplicationContext(),CalendarActivity.class);
+				Intent intent = new Intent(context.getApplicationContext(),ServiceUserActivity.class);
 				//intent.putExtra("service_user_id", appsList.get(position).getService_user_id() );
 				//sendIntent.putExtra(Intent.
 				context.startActivity(intent);   

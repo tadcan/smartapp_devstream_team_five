@@ -228,7 +228,9 @@ public class CalendarActivity extends Activity {
 
 
 		@Override
-		protected void onPostExecute(Void args) {					
+		protected void onPostExecute(Void args) {	
+			//listView listview = ?ListView?findViewById(R.id.listView1);
+			
 			lvDetail = (ListView) findViewById(R.id.lvlist);
 			progressBar.setVisibility(View.GONE);
         	// insert data into the list before setting the adapter

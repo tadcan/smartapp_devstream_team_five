@@ -8,6 +8,11 @@ public class Singleton {
 	private JSONObject queryObject = new JSONObject();
 	private JSONArray queryArray = new JSONArray();
 	
+	private ServiceProviders midWife;
+	private JSONArray clinics = new JSONArray();
+	private JSONArray appointments = new JSONArray();
+	
+	
 	public static Singleton getSingletonIntance() {
 		if(singleInstance == null) {
 			singleInstance = new Singleton();

@@ -1,29 +1,31 @@
 package io.devstream.smartapp_team_five;
-
+/*{
+    "active": true, 
+    "admin": false, 
+    "email": "conor.wogan+eritrea@theproduct.works", 
+    "id": 16, 
+    "job_level": "App", 
+    "job_occupation": "Developer", 
+    "name": "App Team Eritrea", 
+    "password": "********", 
+    "primary_phone": "0876175420", 
+    "secondary_phone": "", 
+    "username": "team_eritrea"
+	}
+*/
 public class ServiceProviders {
-
-	private String job_level;
-
-	private String id;
-
-	private String username;
-
-	private String secondary_phone;
-
-	private String job_occupation;
-
-	private String email;
-
-	private String admin;
-
-	private String name;
-
-	private String primary_phone;
-
 	private String active;
-
+	private String admin;
+	private String email;
+	private String id;
+	private String job_level;
+	private String job_occupation;
+	private String name;
 	private String password;
-
+	private String primary_phone;
+	private String secondary_phone;
+	private String username;	
+	
 	public String getJob_level() {
 		return job_level;
 	}
