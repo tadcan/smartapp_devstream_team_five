@@ -5,6 +5,7 @@ import org.json.JSONObject;
 
 public class Singleton {
 	private static Singleton singleInstance;
+	public static final String ipAddr="http://54.72.7.91:8888/";
 	private JSONObject queryObject = new JSONObject();
 	private JSONArray queryArray = new JSONArray();
 	

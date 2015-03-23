@@ -16,6 +16,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -35,14 +36,16 @@ public class CalendarActivity extends Activity {
 	ProgressDialog mProgressDialog;
 	//ArrayList<String> appointmentList;
 	ArrayList<Appointment> appsList;
-	String loginURL="http://54.72.7.91:8888/login";
-	String tableURL ="http://54.72.7.91:8888/appointments?date=2015-03-31&clinic_id=2";
-	//String tableURL ="http://54.72.7.91:8888/appointments";
-	//String tableURL ="http://54.72.7.91:8888/appointments?date=2015-03-31";
+	
+	final String ipAddr="http://54.72.7.91:8888/";
+	
+	String loginURL= ipAddr + "login";
+	String AppointmenstURL = ipAddr + "appointments";
+	String tableURL = ipAddr + "appointments?date=2015-03-31&clinic_id=2";
+
 	String TAG =  "calact";
 	ProgressBar progressBar;
-    //private static final int DIALOG_KEY = 0;	
-	
+
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -160,6 +163,7 @@ public class CalendarActivity extends Activity {
 					objAppointment = appointmentList.getJSONObject(i);
 					Appointment appointment = new Appointment();													
 					try {
+
 						JSONObject infoObject = objAppointment.getJSONObject("service_user");						
 						Log.d(TAG, "infoObject>>" + infoObject.toString());						
 						String name = infoObject.optString("name").toString();	
@@ -185,9 +189,14 @@ public class CalendarActivity extends Activity {
 					inDate  = format1.parse(strDate);
 					System.out.println(inDate);
 					
-
 					appointment.setDateTime(inDate);
-					
+					if (i==0) {
+						SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
+						String appDate = formatter.format(date);
+						System.out.println("App Date : " + appDate);
+						//jpTextView tvDate = (TextView) view.findViewById(R.id.tvDate);
+						//tvDate.setText(appDate);
+					}					
 					appointment.setClinic_id(objAppointment.optString("clinic_id"));
 					Log.d(TAG, "inDate>>" + inDate + "<<" + strDate + ">> " + objAppointment.optString("clinic_id") );
 					appointment.setService_provider_id(objAppointment.optString("service_provider_id"));
@@ -197,7 +206,7 @@ public class CalendarActivity extends Activity {
 					//--------------------------------------
 					//service_user_id - get the name
 
-					tableURL ="http://54.72.7.91:8888/service_users/"+objAppointment.optString("service_user_id");
+					tableURL = ipAddr + "service_users/"+objAppointment.optString("service_user_id");
 					HttpAuthClass  httpAcc1 = new HttpAuthClass(loginURL,tableURL);
 					objServiceUser = httpAcc1.getJsonobj();
 	
@@ -242,45 +251,3 @@ public class CalendarActivity extends Activity {
 	}
 	
 }
-/*
-    protected Dialog onCreateDialog(int id) {
-        switch (id) {
-        case DIALOG_KEY:                                                               // 1
-            mProgressDialog = new ProgressDialog(this);
-            mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);         // 2
-            mProgressDialog.setMessage("Retrieving recipes...");                       // 3
-            mProgressDialog.setCancelable(false);                                      // 4
-            return mProgressDialog;
-        }
-        return null;
-    }
-    
-    									
-					//--------------------------------------
-					//service_user_id - get the name
-
-					tableURL ="http://54.72.7.91:8888/service_users/"+objAppointment.optString("service_user_id");
-					HttpAuthClass  httpAcc1 = new HttpAuthClass(loginURL,tableURL);
-					objServiceUser = httpAcc1.getJsonobj();
-	
-					String name ="";
-					try {
-						serviceUserList = objServiceUser.getJSONArray("service_users");
-						Log.d(TAG, "object>>" + objServiceUser.toString());
-						Log.d(TAG, "array>>" + serviceUserList.toString());
-						
-						JSONObject searchArray = serviceUserList.getJSONObject(0);
-						JSONObject infoObject = searchArray.getJSONObject("personal_fields");
-						Log.d(TAG, "fields>>" + infoObject.toString());
-						name = infoObject.optString("name").toString();	
-						Log.d(TAG, "33>>" + name);
-						
-					} catch (Exception e) {
-						Log.e("Error", e.getMessage());
-						name = "XXXXXXXXXXXXXXXXXXXXXXXX";
-						//e.printStackTrace();
-					}
-					Singleton serviceUserList;
-					serviceUserList.
-*/
-

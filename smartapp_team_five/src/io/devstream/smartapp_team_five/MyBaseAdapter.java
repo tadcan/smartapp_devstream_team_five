@@ -119,22 +119,6 @@ public class MyBaseAdapter extends BaseAdapter  {
 		public void onClick(View v) {
 			
 			final int position = (Integer) v.getTag();
-			//View parentRow = (View) v.getParent();
-			//ListView listView = (ListView) parentRow.getParent();
-			//final int position = listView.getPositionForView(parentRow);
-			
-	        //final int position = getListView().getPositionForView(v);
-	        //if (position != ListView.INVALID_POSITION) {
-	            //DO THE STUFF YOU WANT TO DO WITH THE position
-	        //}
-
-		   // LinearLayout parent = (LinearLayout) v;
-		    //ListView listView = (ListView) parent.findViewById(R.id.lvlist);
-			//View parentRow = (View) v.getParent();
-
-			//final int position = listView.getPositionForView(parentRow);
-			//final int position =listView.getSelectedItemPosition();
-			//final int position = v.
 			
 			switch (v.getId()) {
 
