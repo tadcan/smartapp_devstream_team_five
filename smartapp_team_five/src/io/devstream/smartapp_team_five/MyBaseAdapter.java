@@ -86,7 +86,7 @@ public class MyBaseAdapter extends BaseAdapter  {
 		//tvClinic.setText(appsList.get(position).getClinic_id());
 		btnSun.setText(appsList.get(position).getService_user_name());
 		tvDate.setText(appsList.get(position).getDate());
-		tvTime.setText(appsList.get(position).getTime());
+		tvTime.setText(appsList.get(position).getTime().substring(0,5));
 		tvGest.setText(appsList.get(position).getGestation());
 		
 		//btnInfo.setTag(position, appsList.get(position));

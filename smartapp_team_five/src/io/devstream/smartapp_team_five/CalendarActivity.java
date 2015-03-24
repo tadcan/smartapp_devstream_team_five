@@ -1,7 +1,10 @@
 package io.devstream.smartapp_team_five;
 
 //31-03-2015
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -16,7 +19,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -66,8 +68,8 @@ public class CalendarActivity extends Activity {
 		TextView tvDate = (TextView) findViewById(R.id.tvDate);
 		TextView tvProgress = (TextView) findViewById(R.id.tvProgress);
 		
-		String todayAsString = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
-		tvDate.setText(todayAsString);
+		//String todayAsString = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
+		//tvDate.setText(todayAsString);
 	
 		
 		btnPrev.setOnClickListener(new ButtonListener());
@@ -116,9 +118,8 @@ public class CalendarActivity extends Activity {
 
 			progressBar = (ProgressBar) findViewById(R.id.pbLoading);
 			progressBar.setVisibility(ProgressBar.VISIBLE);
-			
-			//super.onPreExecute();
-			//************mProgressDialog.show();
+			tvPageDate = (TextView) findViewById(R.id.tvDate);
+
 		}
 		@Override
 		protected void onProgressUpdate(Integer... values) {
@@ -234,19 +235,43 @@ public class CalendarActivity extends Activity {
 		@Override
 		protected void onPostExecute(Void args) {	
 			//listView listview = ?ListView?findViewById(R.id.listView1);
-
-			SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
-			String appDate = formatter.format(pageDate);
-			System.out.println("App Date : " + appDate);
-
-			tvPageDate = (TextView) findViewById(R.id.tvDate);
-			tvPageDate.setText(appDate);
+			//SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
+			//SimpleDateFormat  formatter = new SimpleDateFormat("dd/MM/yyyy");
+			//final String appDate = formatter.format(pageDate);	
+			//System.out.println("App Date : " + appDate);
+			//tvPageDate = (TextView) findViewById(R.id.tvDate);
+			//tvPageDate.setText(appDate);
 			
 			lvDetail = (ListView) findViewById(R.id.lvlist);
 			progressBar.setVisibility(View.GONE);
         	// insert data into the list before setting the adapter
         	// otherwise it will generate NullPointerException  - Obviously
         	lvDetail.setAdapter(new MyBaseAdapter(context, appsList));
+
+        	//Convert pageDate (yyyy-mm-dd) to  day dd/mm/yyyy
+        	SimpleDateFormat source = new SimpleDateFormat("yyyy-MM-dd");  // British format
+    		SimpleDateFormat target = new SimpleDateFormat("EEE dd/MM/yyyy");
+    		String oldDate = pageDate;
+			String newDate = null;
+    		try {
+
+    			newDate = target.format(source.parse(oldDate));
+    		} catch (ParseException e1) {
+    			// TODO Auto-generated catch block
+    			e1.printStackTrace();
+    		}
+    		System.out.println("Day  : " + newDate);
+        	
+    		//    http://stackoverflow.com/questions/21951966/android-asynctask-onpostexecute-accessing-gui-element-gives-null-pointer
+
+    		final String newDate1 = newDate;
+			runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+        			tvPageDate.setText(newDate1);       
+                }
+             });
+
 		}
 		
 		
