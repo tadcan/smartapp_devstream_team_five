@@ -42,6 +42,8 @@ public class CalendarActivity extends Activity {
 	String loginURL= ipAddr + "login";
 	String AppointmenstURL = ipAddr + "appointments";
 	String tableURL = ipAddr + "appointments?date=2015-03-31&clinic_id=2";
+	TextView tvPageDate;
+	String pageDate;
 
 	String TAG =  "calact";
 	ProgressBar progressBar;
@@ -111,7 +113,7 @@ public class CalendarActivity extends Activity {
 	private class DownloadJSON extends AsyncTask<Void, Integer, Void> {
 		@Override
 		protected void onPreExecute() {
-					
+
 			progressBar = (ProgressBar) findViewById(R.id.pbLoading);
 			progressBar.setVisibility(ProgressBar.VISIBLE);
 			
@@ -178,10 +180,9 @@ public class CalendarActivity extends Activity {
 					}		
 					String date = objAppointment.optString("date");
 					appointment.setDate(date);
+					pageDate = date;
 					String time = objAppointment.optString("time");
 					appointment.setTime(objAppointment.optString("time"));
-					
-
 					
 					Date inDate = new Date();
 					String strDate = date+" "+time;
@@ -190,13 +191,7 @@ public class CalendarActivity extends Activity {
 					System.out.println(inDate);
 					
 					appointment.setDateTime(inDate);
-					if (i==0) {
-						SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
-						String appDate = formatter.format(date);
-						System.out.println("App Date : " + appDate);
-						//jpTextView tvDate = (TextView) view.findViewById(R.id.tvDate);
-						//tvDate.setText(appDate);
-					}					
+				
 					appointment.setClinic_id(objAppointment.optString("clinic_id"));
 					Log.d(TAG, "inDate>>" + inDate + "<<" + strDate + ">> " + objAppointment.optString("clinic_id") );
 					appointment.setService_provider_id(objAppointment.optString("service_provider_id"));
@@ -239,6 +234,13 @@ public class CalendarActivity extends Activity {
 		@Override
 		protected void onPostExecute(Void args) {	
 			//listView listview = ?ListView?findViewById(R.id.listView1);
+
+			SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
+			String appDate = formatter.format(pageDate);
+			System.out.println("App Date : " + appDate);
+
+			tvPageDate = (TextView) findViewById(R.id.tvDate);
+			tvPageDate.setText(appDate);
 			
 			lvDetail = (ListView) findViewById(R.id.lvlist);
 			progressBar.setVisibility(View.GONE);
