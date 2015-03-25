@@ -78,14 +78,14 @@ public class MyBaseAdapter extends BaseAdapter  {
 		Button btnInfo = (Button) view.findViewById(R.id.btnInfo);
 		btnInfo.setOnClickListener(new ButtonClickListener());
 
-		TextView tvDate = (TextView) view.findViewById(R.id.tvDate);
+		//TextView tvDate = (TextView) view.findViewById(R.id.tvDate);
 		TextView tvTime = (TextView) view.findViewById(R.id.tvTime);
 		TextView tvGest = (TextView) view.findViewById(R.id.tvGest);
 		
 		// Set the text followed by the position
 		//tvClinic.setText(appsList.get(position).getClinic_id());
 		btnSun.setText(appsList.get(position).getService_user_name());
-		tvDate.setText(appsList.get(position).getDate());
+		//tvDate.setText(appsList.get(position).getDate());
 		tvTime.setText(appsList.get(position).getTime().substring(0,5));
 		tvGest.setText(appsList.get(position).getGestation());
 		

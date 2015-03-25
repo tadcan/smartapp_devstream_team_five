@@ -234,13 +234,6 @@ public class CalendarActivity extends Activity {
 
 		@Override
 		protected void onPostExecute(Void args) {	
-			//listView listview = ?ListView?findViewById(R.id.listView1);
-			//SimpleDateFormat  formatter = new SimpleDateFormat("EEE, dd/MM/yyyy");
-			//SimpleDateFormat  formatter = new SimpleDateFormat("dd/MM/yyyy");
-			//final String appDate = formatter.format(pageDate);	
-			//System.out.println("App Date : " + appDate);
-			//tvPageDate = (TextView) findViewById(R.id.tvDate);
-			//tvPageDate.setText(appDate);
 			
 			lvDetail = (ListView) findViewById(R.id.lvlist);
 			progressBar.setVisibility(View.GONE);
@@ -273,8 +266,5 @@ public class CalendarActivity extends Activity {
              });
 
 		}
-		
-		
-	}
-	
+	}	
 }
